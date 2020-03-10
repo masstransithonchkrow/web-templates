@@ -5,8 +5,8 @@
 <link rel="shortcut icon" type="image/icon" href="../365stops.ico"/>
 <link rel="apple-touch-icon" href="../ios-icon.png" />
 <!-- This is used to change the site's appearance based on time of day. -->
-<script type="text/javascript" src="scripts/dawnAndDusk.js"></script>
-<noscript><link href="365stops.css" rel="stylesheet"></noscript>
+<script src="scripts/dawnAndDusk.js"></script>
+<noscript><link href="../365stops.css" rel="stylesheet"></noscript>
 <meta charset="utf-8">
 <style>
 .module
@@ -31,11 +31,10 @@
 </td>
 </tr>
 <tr>
-<span id="bodyText">
 <td class="leftHeading">Details:</td>
 <td>
 <!-- Table for side view of images -->
-<table id="picWidget">
+<table class="picWidget">
 <tbody>
 <tr>
 <td><img src="pvi/ThemeName-NotifyUI2.jpg" title="An alternate wallpaper view." class="center" /></td>
@@ -44,7 +43,7 @@
 </tbody>
 </table>
 <!-- Table for side view of UI types -->
-<table id="picWidget">
+<table class="picWidget">
 <tbody>
 <tr>
 <td><img src="pvi/ThemeName-ExplorerUI.jpg" title="A view of the Explorer (MDL) UI." class="center" /></td>
@@ -57,7 +56,7 @@
 <!-- Anchor Template -->
 <!-- <a href="" class="emphasis" title="" target="_blank"></a> -->
 <!-- Commentary Section -->
-<span id="typeSide">
+<div id="typeSide">
 <!-- Attribute Key: -->
 <!-- [C] - uses desktop composition -->
 <!-- <s>[C]</s> - uses Win Classic / High Contrast -->
@@ -66,17 +65,13 @@
 <!-- [SS-#] - multiple wallpapers - how many -->
 <!-- [A] - auto colorization used, only possible with [C] -->
 <!-- Spare Anchors <a href="" class="emphasis" title="" target="_blank"></a> -->
-<p>
-<p>Attributes: <span class="txtPanel" title="uses desktop composition">[C]</span> &nbsp; <span class="txtPanel" title="lacks desktop composition - not recommended for daily use"><s>[C]</s></span> &nbsp; <span class="txtPanel" title="RGB wheel for manual color">[rrr ggg bbb]</span> &nbsp; <span class="txtPanel" title="auto colorization was used">[A]</span> &nbsp; <span class="txtPanel" onclick="location.href='<screensaver link>'" title="screensaver included - click to download [Outside Link]">[SCR]</span> &nbsp; <span class="txtPanel" title="slideshow theme - number of wallpapers">[SS-#]</span> &nbsp;</p><br />
+<div>Attributes: <span class="txtPanel" title="uses desktop composition">[C]</span> &nbsp; <span class="txtPanel" title="lacks desktop composition - not recommended for daily use"><s>[C]</s></span> &nbsp; <span class="txtPanel" title="RGB wheel for manual color">[rrr ggg bbb]</span> &nbsp; <span class="txtPanel" title="auto colorization was used">[A]</span> &nbsp; <span class="txtPanel" onclick="location.href='<screensaver link>'" title="screensaver included - click to download [Outside Link]">[SCR]</span> &nbsp; <span class="txtPanel" title="slideshow theme - number of wallpapers">[SS-#]</span> &nbsp;</div><br />
 Original filename:<span class="txtPanel" title=""></span> <br />
 Alternate Theme: <span class="emphasis" onclick="location.href='<link to alternate theme>'">Alternate Theme</span>
-</p>
 <p></p>
-<p>- <a href="deskthemepacks.html" accesskey="q" class="emphasis" title="return to the DeskThemePack main page">🎨</a></p>
-</span>
+<span>- <a href="deskthemepacks.html" accesskey="q" class="emphasis" title="return to the DeskThemePack main page">🎨</a></span></div>
 </td>
 </tr>
-</span>
 <tr>
 <td class="leftHeading">Credits and Footer Text</td>
 <td>&copy; Mass Transit Honchkrow, Theme Author or IP</td>
