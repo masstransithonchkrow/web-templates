@@ -1,0 +1,68 @@
+@font-face
+{
+font-family: 'Karma Future';
+src: url('https://365stops.org/fonts/KarmaFuture.ttf');
+text-rendering: optimizeLegibility;
+}
+html 
+{ 
+  background: url('https://365stops.org/myFilePhotos/oncoming-f-baypkwy.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  font-family: Verdana, Arial, 'Helvetica Neue', sans-serif;
+}
+h1
+{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.7;
+}
+
+#inset 
+{
+	font-style: italic;
+	text-align: center;
+	border-left: 6px solid #c0f1fc;
+	background-color: #b0b0b0;
+}
+a 
+{
+	text-decoration: none;
+	color: #efe4b0;
+}
+#warningHeaderR
+{
+	font-family: 'Karma Future', serif;
+	font-size: 5em;
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+#warningHeaderG
+{
+	font-family: 'Karma Future', serif;
+	font-size: 5em;
+	background-color: black;
+	color: green;
+	text-align: center;
+}
+#warningHeaderY
+{
+	font-family: 'Karma Future', serif;
+	font-size: 5em;
+	background-color: black;
+	color: yellow;
+	text-align: center;
+}
+#returnHeader
+{
+	font-family: 'Karma Future', serif;
+	font-size: 3.5em;
+	color: yellow;
+	background-color: #757575;
+	text-align: center;
+}

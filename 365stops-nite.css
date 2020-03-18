@@ -1,0 +1,591 @@
+/*Font-Space Start*/
+/*Normal -Font*/
+/*Orbitron is an OpenType Font*/
+/*
+###########################################
+Colors Used For This CSS File
+https://botsin.space/@accessibleColors/103833621005988313
+#ce7502 (206 117 2) or Meteor
+#19103b (25 16 59) or Haiti
+117-117-117 or Dark Gray
+###########################################
+*/
+*
+{
+font-family: 'Orbitron', 'Noto Emoji', sans-serif;
+}
+@font-face
+{
+font-family: 'Orbitron';
+src: url('fonts/Orbitron-Regular.ttf');
+text-rendering: optimizeLegibility;
+}
+/*Font-Space End*/
+html 
+{ 
+  background: url(img/broadway-tarrytown.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-shadow: 1px 1px #b0b0b0;
+}
+/* Style the icon bar links for Desktop */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  padding-left: 15px;
+  font-size: 1.7em;
+}
+
+.titleLine
+{
+	background-color: black;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+.homeLine
+{
+	background-color: black;
+	color: #ce7502;
+	font-size: 2.2em;
+	text-align: center;
+	font-weight: bold;
+}
+.splash
+{
+	background: linear-gradient(to bottom, #19103b, black);
+	background-size: 100%;
+	padding-bottom: 10px;
+}
+.storyBorder
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ce7502;
+}
+.emphasis
+{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1em;
+	opacity: 0.8;
+	font-weight: bold;
+	text-align: center;
+	background-color:  #19103b;
+	color: white;
+	border: 3px solid white;
+}
+.txtPanel
+{
+	font-size: 1.5em;
+	opacity: 0.8;
+	font-weight: bold;
+	text-align: left;
+	background-color:  black;
+	color: white;
+	border: 3px solid #19103b;
+}
+.txtCtrPanel
+{
+	background-color: black;
+	opacity: 0.9;
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	border: 3px solid #19103b;
+	color: white;
+}
+.inline span
+{
+	color: black;
+	font-family: 'sans-serif';
+}
+#rightside
+{ 	
+float: right;
+width: 45%;
+}
+#typeSide
+{ 	
+font-size: 1.1em;
+float: left;
+text-align: left;
+}
+#leftside
+{
+	float: left;
+	width: 40%;
+}
+#desktop
+{
+	display: none;
+}
+#mobile
+{
+	display: block;
+	background-color: #ce7502;
+}
+#mobile span
+{
+	border: 1px solid black;
+}
+.wholeWide
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.eastOfNav
+{
+	padding-left: 10em;
+}
+.txtFrame
+{
+	border: 1px solid black;
+	font-size: 1.5em;
+	background-color: black;
+	padding: 5px;
+}
+.txtFrame a:hover
+{
+	color: #ce7502;
+}
+.dropChar 
+{
+	display: block; 
+	width: 60px; 
+	height: 30px; 
+	margin: 0 10px 0 10px; 
+	color: white;
+	display: inline-block;
+	padding-bottom: 7px;
+	background-color: #19103b;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 1.6em;
+	}
+iframe,img.center
+{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul, ol
+{
+	background-color: #19103b;
+	color: white;
+}
+.topic
+{
+	background-color: black;
+	color: #ce7502;
+	font-size: 1.3em;
+	display: table;
+}
+.center
+{
+	display: block;
+	text-align: center;
+}
+.current
+{
+	color: #ce7502;
+	font-style: italic;
+}
+#picWidget img
+{
+	 box-sizing: border-box;
+	 opacity: 0.9;
+	 width: 100%;
+}
+.picWidget img
+{
+	 box-sizing: border-box;
+	 opacity: 0.9;
+	 width: 100%;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+#dtpWidget img
+{
+	 width: 60%;
+    height: 100%;
+    display: block;
+	float: right;
+}
+td
+{
+	word-wrap: normal;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	padding: 5px;
+	font-size: 1.1em;
+}
+.leftHeading
+{
+	text-align: center;
+	background: linear-gradient(#19103b, black);
+	color: white;
+	font-weight: bold;
+}
+.returnTag
+{
+	font-family: 'Noto Emoji';
+}
+/*Submenu data for Desktop*/
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {
+  color: white;
+}
+.nav .sub-menu .menu-item a {
+  color: white;
+}
+.nav .sub-menu {
+  background-color: #ce7502;
+  list-style: none;
+}
+.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
+  background-color:  #19103b;
+  color: white;
+}
+a /*What most links will look like*/
+{
+	text-decoration: none;
+	color: white;
+	border: 1 px solid #ce7502;
+}
+p  /*Paragraph formatting*/
+{
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+/*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
+@media screen and (max-width: 1540px)  
+{
+*
+{
+	font-family: 'Orbitron', serif;
+}
+/* Style the icon bar links for Mobile */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+/*Font Face for Mobile*/
+@font-face
+{
+font-family: 'Orbitron';
+src: url('fonts/Orbitron-Regular.ttf');
+text-rendering: optimizeLegibility;
+}
+html 
+{ 
+  background: url(img/broadway-tarrytown.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-shadow: 1px 1px #b0b0b0;
+}
+/* .titleLine */
+/* { */
+	/* background-color: black; */
+	/* color: #19103b; */
+	/* font-size: 2em; */
+	/* text-align: center; */
+	/* font-weight: bold; */
+/* } */
+.homeLine
+{
+	background-color: black;
+	color: #19103b;
+	font-size: 2.1em;
+	text-align: center;
+	font-weight: bold;
+}
+.splash
+{
+	background: linear-gradient(to top, black, #ce7502);
+	background-size: 100%;
+	padding-bottom: 10px;
+}
+.storyBorder
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #19103b;
+}
+.emphasis
+{
+	font-family: 'Orbitron', serif;
+	font-size: 1em;
+	opacity: 0.8;
+	font-weight: bold;
+	text-align: center;
+	background-color:  #ce7502;
+	color: white;
+	border: 3px solid white;
+}
+.txtPanel
+{
+	font-size: 1.5em;
+	opacity: 0.8;
+	font-weight: bold;
+	text-align: left;
+	background-color:  black;
+	color: white;
+	border: 3px solid #ce7502;
+}
+.txtCtrPanel
+{
+	background-color: black;
+	opacity: 0.9;
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	border: 3px solid #ce7502;
+}
+.inline span
+{
+	color: white;
+	font-family: 'serif';
+}
+.txtFrame
+{
+	border: 1px solid black;
+	font-size: 1.5em;
+	background-color: black;
+	padding: 5px;
+}
+.dropChar 
+{
+	display: block; 
+	width: 60px; 
+	height: 30px; 
+	margin: 0 10px 0 10px; 
+	color: white;
+	display: inline-block;
+	padding-bottom: 8px;
+	background-color: #ce7502;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 1.6em;
+	}
+img.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul, ol
+{
+	background-color: #ce7502;
+	color: black;
+}
+.topic
+{
+	background-color: black;
+	color: #19103b;
+	font-size: 1.3em;
+	display: table;
+}
+.center
+{
+	display: block;
+	text-align: center;
+}
+.current
+{
+	color: #19103b;
+	font-style: italic;
+}
+#rightside
+{ 	
+float: right;
+width: 35%;
+}
+#typeSide
+{ 	
+font-size: 1.1em;
+float: left;
+text-align: left;
+}
+#leftside
+{
+	float: left;
+	width: 40%;
+}
+#desktop
+{
+	display: block;
+	background-color: #19103b;
+}
+#desktop span
+{
+	border: 1px solid white;
+}
+#mobile
+{
+	display: none;
+}
+.wholeWide
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.eastOfNav
+{
+	padding-left: 8em;
+}
+.txtFrame a:hover
+{
+	color: #19103b;
+}
+#picWidget img
+{
+	 box-sizing: border-box;
+	 opacity: 0.9;
+	 width: 100%;
+}
+.picWidget img
+{
+	 box-sizing: border-box;
+	 opacity: 0.9;
+	 width: 100%;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+#dtpWidget img
+{
+	 width: 60%;
+    height: 100%;
+    display: block;
+	float: right;
+}
+td
+{
+	word-wrap: normal;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+	padding: 2px;
+	font-size: 1.1em;
+}
+.leftHeading
+{
+	text-align: center;
+	background: linear-gradient(#ce7502, black);
+	color: white;
+	font-weight: bold;
+}
+.returnTag
+{
+	font-family: 'Noto Emoji';
+}
+/*Submenu data for Mobile*/
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {
+  color: white;
+}
+.nav .sub-menu .menu-item a {
+  color: white;
+}
+.nav .sub-menu {
+  background-color: #19103b;
+  list-style: none;
+}
+.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
+  background-color: #ce7502;
+  color: white;
+}
+a /*What most links will look like*/
+{
+	text-decoration: none;
+	color: #ce7502;
+	border: 1 px solid #19103b;
+}
+p /*Paragraph formatting*/
+{
+	font-family: serif;
+	font-size: 1.2em;
+}
+}
+@media print
+{
+	.storyBorder
+	{
+		width: 98%;
+	}
+	.no-print, .no-print *
+	{
+		display: none !important;
+	}
+}
+/* Sidebar Position Data For Both Desktop and Mobile */
+.icon-bar {
+	opacity: 0.7;
+  position: fixed;
+  top: 45%;
+  left: 1%;
+  -webkit-transform: translateY(-45%);
+  -ms-transform: translateY(-45%);
+  transform: translateY(-45%);
+}
+#active
+{
+	background-color: black;
+	color: black;
+}
+/*Two styles are used based on the site color map.*/
+.icon-bar a:hover {
+  background-color: black;
+  color: white;
+}
+
+.style1 {
+  background: #ce7502;
+  color: white;
+  border: 2px solid #19103b;
+}
+
+.style2{
+  background: #19103b;
+  color: white;
+  border: 1px solid #ce7502;
+}
+/*Submenu Proportion Components*/
+.nav 
+{
+  	width: 80%;
+	font-size: 0.9em;
+}
