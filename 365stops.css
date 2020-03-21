@@ -78,8 +78,6 @@ html
 .emphasis
 {
 	font-family: 'Orbitron', sans-serif;
-	font-size: 1em;
-	opacity: 0.8;
 	font-weight: bold;
 	text-align: center;
 	background-color:  #29309b;
@@ -89,7 +87,7 @@ html
 .txtPanel
 {
 	font-size: 1.5em;
-	opacity: 0.8;
+	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
 	background-color:  #b0b0b0;
@@ -155,8 +153,14 @@ text-align: left;
 {
 	border: 1px solid black;
 	font-size: 1.5em;
-	background-color: #b0b0b0;
-	padding: 5px;
+	background-color: black;
+	margin: 5px;
+	white-space: nowrap;
+}
+.txtFrame span
+{
+		display: table;
+		
 }
 .txtFrame a:hover
 {
@@ -302,7 +306,7 @@ text-rendering: optimizeLegibility;
 }
 html 
 { 
-  background: url(img/pier6-kingscounty.jpg) no-repeat center center fixed; 
+    background: url(img/pier6-kingscounty.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -349,8 +353,6 @@ html
 .emphasis
 {
 	font-family: 'Orbitron', serif;
-	font-size: 1em;
-	opacity: 0.8;
 	font-weight: bold;
 	text-align: center;
 	background-color:  #e5d8ae;
@@ -360,7 +362,7 @@ html
 .txtPanel
 {
 	font-size: 1.5em;
-	opacity: 0.8;
+	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
 	background-color:  #b0b0b0;
@@ -387,8 +389,18 @@ html
 {
 	border: 1px solid black;
 	font-size: 1.5em;
-	background-color: #b0b0b0;
-	padding: 5px;
+	background-color: black;
+	margin: 5px;
+	white-space: nowrap;
+}
+.txtFrame span
+{
+		display: table;
+		
+}
+.txtFrame a:hover
+{
+	color: #29309b;
 }
 .dropChar 
 {
@@ -429,7 +441,7 @@ ul, ol
 }
 .current
 {
-	color: #29309b;
+	color: white;
 	font-style: italic;
 }
 #rightside

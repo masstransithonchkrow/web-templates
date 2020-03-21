@@ -71,8 +71,6 @@ html
 .emphasis
 {
 	font-family: 'Orbitron', sans-serif;
-	font-size: 1em;
-	opacity: 0.8;
 	font-weight: bold;
 	text-align: center;
 	background-color:  #19103b;
@@ -82,7 +80,7 @@ html
 .txtPanel
 {
 	font-size: 1.5em;
-	opacity: 0.8;
+	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
 	background-color:  black;
@@ -150,7 +148,13 @@ text-align: left;
 	border: 1px solid black;
 	font-size: 1.5em;
 	background-color: black;
-	padding: 5px;
+	margin: 5px;
+	white-space: nowrap;
+}
+.txtFrame span
+{
+		display: table;
+		
 }
 .txtFrame a:hover
 {
@@ -300,7 +304,7 @@ text-rendering: optimizeLegibility;
 }
 html 
 { 
-  background: url(img/broadway-tarrytown.jpg) no-repeat center center fixed; 
+  background: url(img/nereid-full-moon.gif) no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -338,8 +342,6 @@ html
 .emphasis
 {
 	font-family: 'Orbitron', serif;
-	font-size: 1em;
-	opacity: 0.8;
 	font-weight: bold;
 	text-align: center;
 	background-color:  #ce7502;
@@ -349,7 +351,7 @@ html
 .txtPanel
 {
 	font-size: 1.5em;
-	opacity: 0.8;
+
 	font-weight: bold;
 	text-align: left;
 	background-color:  black;
@@ -377,7 +379,13 @@ html
 	border: 1px solid black;
 	font-size: 1.5em;
 	background-color: black;
-	padding: 5px;
+	margin: 5px;
+	white-space: nowrap;
+}
+.txtFrame span
+{
+		display: table;
+		
 }
 .dropChar 
 {
@@ -418,7 +426,7 @@ ul, ol
 }
 .current
 {
-	color: #19103b;
+	color: white;
 	font-style: italic;
 }
 #rightside
@@ -462,7 +470,7 @@ text-align: left;
 }
 .txtFrame a:hover
 {
-	color: #19103b;
+	color: white;
 }
 #picWidget img
 {
