@@ -558,6 +558,10 @@ p /*Paragraph formatting*/
 	{
 		display: none !important;
 	}
+	.dropChar
+	{
+		border: 1px solid black;
+	}
 }
 /* Sidebar Position Data For Both Desktop and Mobile */
 .icon-bar {
