@@ -37,14 +37,6 @@ html
   background-size: cover;
   text-shadow: 1px 1px #b0b0b0;
 }
-.icon-bar a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: white;
-  padding-left: 12px;
-  font-size: 1.7em;
-}
 .titleLine
 {
 	background-color: #b0b0b0;
@@ -314,15 +306,6 @@ html
   background-size: cover;
   text-shadow: 1px 1px #b0b0b0;
 }
-/* Style the icon bar links for Mobile */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: white;
-  padding-left: 10px;
-  font-size: 1.2em;
-}
 .titleLine
 {
 	background-color: #b0b0b0;
@@ -579,14 +562,29 @@ p /*Paragraph formatting*/
 	}
 }
 /* Sidebar Position Data For Both Desktop and Mobile */
-.icon-bar {
-	opacity: 0.7;
+.icon-bar
+{
+  opacity: 0.8;
   position: fixed;
-  top: 45%;
+  top: 50%;
   left: 1%;
-  -webkit-transform: translateY(-45%);
-  -ms-transform: translateY(-45%);
-  transform: translateY(-45%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a
+{
+	display: block;
+	text-align: center;
+	margin-left: 0.5vw;
+	font-size: 1.5vw;
+	padding: 1em;
+	border: 2px solid black;
+}
+.icon-bar a:hover 
+{
+  background-color: white;
+  color: black;
 }
 #active
 {
@@ -594,19 +592,13 @@ p /*Paragraph formatting*/
 	color: black;
 }
 /*Two styles are used based on the site color map.*/
-.icon-bar a:hover {
-  background-color: white;
+.style1
+{
+  background-color: #29309b;
+  color: white;
+}
+.style2
+{
+  background-color: #e5d8ae;
   color: black;
-}
-
-.style1 {
-  background: #e5d8ae;
-  color: white;
-  border: 2px solid #29309b;
-}
-
-.style2{
-  background: #29309b;
-  color: white;
-  border: 1px solid #e5d8ae;
 }

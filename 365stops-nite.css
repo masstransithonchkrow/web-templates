@@ -30,15 +30,14 @@ html
   text-shadow: 1px 1px #b0b0b0;
 }
 /* Style the icon bar links for Desktop */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: white;
-  padding-left: 15px;
-  font-size: 1.7em;
+.icon-bar a 
+{
+	display: block;
+	text-align: center;
+	padding-left: 12px;
+	font-size: 1.6em;
+	border: 2px solid white;
 }
-
 .titleLine
 {
 	background-color: black;
@@ -288,15 +287,11 @@ p  /*Paragraph formatting*/
 	font-family: 'Orbitron', serif;
 }
 /* Style the icon bar links for Mobile */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: white;
+.icon-bar a 
+{
   padding-left: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
-
 /*Font Face for Mobile*/
 @font-face
 {
@@ -563,34 +558,43 @@ p /*Paragraph formatting*/
 	}
 }
 /* Sidebar Position Data For Both Desktop and Mobile */
-.icon-bar {
-	opacity: 0.7;
+.icon-bar
+{
+  opacity: 0.8;
   position: fixed;
-  top: 45%;
+  top: 50%;
   left: 1%;
-  -webkit-transform: translateY(-45%);
-  -ms-transform: translateY(-45%);
-  transform: translateY(-45%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a
+{
+	display: block;
+	text-align: center;
+	margin-left: 0.5vw;
+	font-size: 1.5vw;
+	padding: 1em;
+	border: 2px solid black;
+}
+.icon-bar a:hover 
+{
+  background-color: black;
+  color: #ce7502;
 }
 #active
 {
 	background-color: black;
-	color: black;
+	color: white;
 }
 /*Two styles are used based on the site color map.*/
-.icon-bar a:hover {
-  background-color: black;
+.style1
+{
+  background-color: #29309b;
   color: white;
 }
-
-.style1 {
-  background: #ce7502;
-  color: white;
-  border: 2px solid #19103b;
-}
-
-.style2{
-  background: #19103b;
-  color: white;
-  border: 1px solid #ce7502;
+.style2
+{
+  background-color: #ce7502;
+  color: black;
 }
