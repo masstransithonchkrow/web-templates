@@ -77,6 +77,11 @@ html
 	color: white;
 	border: 3px solid white;
 }
+.banner
+{
+	font-size: 1.3vw;
+	width: 100%;
+}
 .txtPanel
 {
 	font-size: 1.5em;
@@ -254,9 +259,6 @@ td
 }
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
-  color: white;
-}
-.nav .sub-menu .menu-item a {
   color: white;
 }
 .nav .sub-menu {
@@ -525,9 +527,6 @@ td
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
   color: white;
 }
-.nav .sub-menu .menu-item a {
-  color: white;
-}
 .nav .sub-menu {
   background-color: #19103b;
   list-style: none;
@@ -594,10 +593,4 @@ p /*Paragraph formatting*/
   background: #19103b;
   color: white;
   border: 1px solid #ce7502;
-}
-/*Submenu Proportion Components*/
-.nav 
-{
-  	width: 80%;
-	font-size: 0.9em;
 }
