@@ -41,7 +41,7 @@ html
 {
 	background-color: #b0b0b0;
 	color: black;
-	font-size: 2em;
+	font-size: 2vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -49,13 +49,13 @@ html
 {
 	background-color: #b0b0b0;
 	color: #e5d8ae;
-	font-size: 2.2em;
+	font-size: 2vw;
 	text-align: center;
 	font-weight: bold;
 }
 .splash
 {
-	background: linear-gradient(to bottom, #b0b0b0, black);
+	background: linear-gradient(to bottom, #757575, #29309b);
 	background-size: 100%;
 	padding-bottom: 10px;
 }
@@ -83,7 +83,7 @@ html
 }
 .txtPanel
 {
-	font-size: 1.5em;
+	font-size: 2vw;
 	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
@@ -114,7 +114,6 @@ width: 45%;
 }
 #typeSide
 { 	
-font-size: 1.1em;
 float: left;
 text-align: left;
 }
@@ -144,12 +143,17 @@ text-align: left;
 }
 .eastOfNav
 {
-	padding-left: 11em;
+	padding-left: 8vw;
+}
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+	font-size: 1.3em;
+	font-family: sans-serif;
+	position: relative;
 }
 .txtFrame
 {
 	border: 1px solid black;
-	font-size: 1.5em;
+	font-size: 2vw;
 	background-color: #b0b0b0;
 	margin: 5px;
 	white-space: nowrap;
@@ -159,6 +163,10 @@ text-align: left;
 		display: table;
 		
 }
+.txtFrame a 
+{
+	color: #29309b;
+}
 .txtFrame a:hover
 {
 	color: #e5d8ae;
@@ -166,16 +174,14 @@ text-align: left;
 .dropChar 
 {
 	display: block; 
-	width: 60px; 
-	height: 30px; 
+	width: 50px; 
+	height: 50px; 
 	margin: 0 10px 0 10px; 
 	color: white;
 	display: inline-block;
-	padding-bottom: 7px;
 	background-color: #29309b;
 	border: 2px solid black;
 	text-align: center;
-	font-size: 1.6em;
 	}
 iframe,img.center
 {
@@ -276,7 +282,7 @@ a /*What most links will look like*/
 p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 1.2em;
+	font-size: 1.8vw;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width: 1540px)  
@@ -298,19 +304,11 @@ text-rendering: optimizeLegibility;
 	src: url('fonts/NotoEmoji-661A.ttf');
 	text-rendering: optimizeLegibility;
 }
-html 
-{ 
-    background: url(img/pier6-kingscounty.gif) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  text-shadow: 1px 1px #b0b0b0;
-}
 .titleLine
 {
 	background-color: #b0b0b0;
 	color: #29309b;
-	font-size: 2em;
+	font-size: 2.2vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -318,13 +316,13 @@ html
 {
 	background-color: #b0b0b0;
 	color: #29309b;
-	font-size: 2.1em;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
 .splash
 {
-	background: linear-gradient(to bottom, #b0b0b0, black);
+	background: linear-gradient(to bottom, #757575, #e5d8ae);
 	background-size: 100%;
 	padding-bottom: 10px;
 }
@@ -346,7 +344,7 @@ html
 }
 .txtPanel
 {
-	font-size: 1.5em;
+	font-size: 2.5vw;
 	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
@@ -358,7 +356,7 @@ html
 {
 	background-color: #b0b0b0;
 	opacity: 0.9;
-	font-size: 1.5em;
+	font-size: 2.4vw;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -370,37 +368,23 @@ html
 	color: black;
 	font-family: 'serif';
 }
-.txtFrame
-{
-	border: 1px solid black;
-	font-size: 1.5em;
-	background-color: #b0b0b0;
-	margin: 5px;
-	white-space: nowrap;
-}
-.txtFrame span
-{
-		display: table;
-		
-}
-.txtFrame a:hover
-{
-	color: #29309b;
-}
 .dropChar 
 {
 	display: block; 
-	width: 60px; 
-	height: 30px; 
+	width: 50px; 
+	height: 50px; 
 	margin: 0 10px 0 10px; 
 	color: black;
 	display: inline-block;
-	padding-bottom: 5px;
 	background-color: #e5d8ae;
 	border: 2px solid black;
 	text-align: center;
-	font-size: 1.6em;
 	}
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+	font-size: 2vw;
+	font-family: sans-serif;
+	position: relative;
+}
 img.center
 {
 	display: block;
@@ -436,7 +420,6 @@ width: 35%;
 }
 #typeSide
 { 	
-font-size: 1.1em;
 float: left;
 text-align: left;
 }
@@ -463,14 +446,6 @@ text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-}
-.eastOfNav
-{
-	padding-left: 8em;
-}
-.txtFrame a:hover
-{
-	color: #29309b;
 }
 .picWidget img
 {
@@ -542,7 +517,7 @@ a /*What most links will look like*/
 p /*Paragraph formatting*/
 {
 	font-family: serif;
-	font-size: 1.2em;
+	font-size: 2.2vw;
 	color: white;
 }
 }

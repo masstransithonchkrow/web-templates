@@ -7,7 +7,7 @@ Colors Used For This CSS File
 https://botsin.space/@accessibleColors/103833621005988313
 #ce7502 (206 117 2) or Meteor
 #19103b (25 16 59) or Haiti
-117-117-117 or Dark Gray
+#757575 (117 117 117) or Dark Gray
 ###########################################
 */
 *
@@ -20,6 +20,12 @@ font-family: 'Orbitron';
 src: url('fonts/Orbitron-Regular.ttf');
 text-rendering: optimizeLegibility;
 }
+@font-face
+{
+	font-family: 'Noto Emoji';
+	src: url('fonts/NotoEmoji-661A.ttf');
+	text-rendering: optimizeLegibility;
+}
 /*Font-Space End*/
 html 
 { 
@@ -27,7 +33,7 @@ html
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  text-shadow: 1px 1px #b0b0b0;
+  text-shadow: 1px 1px #757575;
 }
 /* Style the icon bar links for Desktop */
 .icon-bar a 
@@ -42,7 +48,7 @@ html
 {
 	background-color: black;
 	color: white;
-	font-size: 2em;
+	font-size: 2vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -50,7 +56,7 @@ html
 {
 	background-color: black;
 	color: #ce7502;
-	font-size: 2.2em;
+	font-size: 2vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -83,7 +89,7 @@ html
 }
 .txtPanel
 {
-	font-size: 1.5em;
+	font-size: 2vw;
 	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
@@ -115,7 +121,6 @@ width: 45%;
 }
 #typeSide
 { 	
-font-size: 1.1em;
 float: left;
 text-align: left;
 }
@@ -145,12 +150,17 @@ text-align: left;
 }
 .eastOfNav
 {
-	padding-left: 11em;
+	padding-left: 8vw;
+}
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+	font-size: 1.3em;
+	font-family: sans-serif;
+	position: relative;
 }
 .txtFrame
 {
 	border: 1px solid black;
-	font-size: 1.5em;
+	font-size: 2vw;
 	background-color: black;
 	margin: 5px;
 	white-space: nowrap;
@@ -167,17 +177,20 @@ text-align: left;
 .dropChar 
 {
 	display: block; 
-	width: 60px; 
-	height: 30px; 
+	width: 50px; 
+	height: 50px; 
 	margin: 0 10px 0 10px; 
 	color: white;
 	display: inline-block;
-	padding-bottom: 7px;
 	background-color: #19103b;
 	border: 2px solid white;
 	text-align: center;
-	font-size: 1.6em;
 	}
+	.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+	font-size: 2vw;
+	font-family: sans-serif;
+	position: relative;
+}
 iframe,img.center
 {
 	width: 100%;
@@ -277,14 +290,14 @@ a /*What most links will look like*/
 p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 1.2em;
+	font-size: 1.8vw;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width: 1540px)  
 {
 *
 {
-	font-family: 'Orbitron', serif;
+	font-family: 'Orbitron', 'Noto Emoji' serif;
 }
 /* Style the icon bar links for Mobile */
 .icon-bar a 
@@ -295,31 +308,29 @@ p  /*Paragraph formatting*/
 /*Font Face for Mobile*/
 @font-face
 {
-font-family: 'Orbitron';
+font-family: 'Orbitron', serif;
 src: url('fonts/Orbitron-Regular.ttf');
 text-rendering: optimizeLegibility;
 }
-html 
-{ 
-  background: url(img/nereid-full-moon.gif) no-repeat center center fixed;  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  text-shadow: 1px 1px #b0b0b0;
+@font-face
+{
+	font-family: 'Noto Emoji';
+	src: url('fonts/NotoEmoji-661A.ttf');
+	text-rendering: optimizeLegibility;
 }
-/* .titleLine */
-/* { */
-	/* background-color: black; */
-	/* color: #19103b; */
-	/* font-size: 2em; */
-	/* text-align: center; */
-	/* font-weight: bold; */
-/* } */
+.titleLine
+{
+	background-color: black;
+	color: #19103b;
+	font-size: 2.2vw;
+	text-align: center;
+	font-weight: bold;
+}
 .homeLine
 {
 	background-color: black;
 	color: #19103b;
-	font-size: 2.1em;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -347,8 +358,7 @@ html
 }
 .txtPanel
 {
-	font-size: 1.5em;
-
+	font-size: 2.5vw;
 	font-weight: bold;
 	text-align: left;
 	background-color:  black;
@@ -359,7 +369,7 @@ html
 {
 	background-color: black;
 	opacity: 0.9;
-	font-size: 1.5em;
+	font-size: 2.4vw;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -387,16 +397,14 @@ html
 .dropChar 
 {
 	display: block; 
-	width: 60px; 
-	height: 30px; 
+	width: 50px; 
+	height: 50px; 
 	margin: 0 10px 0 10px; 
 	color: white;
 	display: inline-block;
-	padding-bottom: 8px;
 	background-color: #ce7502;
 	border: 2px solid white;
 	text-align: center;
-	font-size: 1.6em;
 	}
 img.center
 {
@@ -433,7 +441,6 @@ width: 35%;
 }
 #typeSide
 { 	
-font-size: 1.1em;
 float: left;
 text-align: left;
 }
@@ -460,10 +467,6 @@ text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-}
-.eastOfNav
-{
-	padding-left: 8em;
 }
 .txtFrame a:hover
 {
@@ -539,7 +542,7 @@ a /*What most links will look like*/
 p /*Paragraph formatting*/
 {
 	font-family: serif;
-	font-size: 1.2em;
+	font-size: 2.2vw;
 }
 }
 @media print
@@ -590,7 +593,7 @@ p /*Paragraph formatting*/
 /*Two styles are used based on the site color map.*/
 .style1
 {
-  background-color: #29309b;
+  background-color: #19103b;
   color: white;
 }
 .style2
