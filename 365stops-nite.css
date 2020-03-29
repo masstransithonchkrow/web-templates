@@ -176,21 +176,15 @@ text-align: left;
 }
 .dropChar 
 {
-	display: block; 
-	width: 50px; 
-	height: 50px; 
+	display: inline-block; 
+	width: 3vw; 
+	height: 3vw;
 	margin: 0 10px 0 10px; 
 	color: white;
-	display: inline-block;
 	background-color: #19103b;
 	border: 2px solid white;
 	text-align: center;
 	}
-	.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
-	font-size: 2vw;
-	font-family: sans-serif;
-	position: relative;
-}
 iframe,img.center
 {
 	width: 100%;
@@ -318,14 +312,6 @@ text-rendering: optimizeLegibility;
 	src: url('fonts/NotoEmoji-661A.ttf');
 	text-rendering: optimizeLegibility;
 }
-.titleLine
-{
-	background-color: black;
-	color: #19103b;
-	font-size: 2.2vw;
-	text-align: center;
-	font-weight: bold;
-}
 .homeLine
 {
 	background-color: black;
@@ -396,15 +382,9 @@ text-rendering: optimizeLegibility;
 }
 .dropChar 
 {
-	display: block; 
-	width: 50px; 
-	height: 50px; 
-	margin: 0 10px 0 10px; 
 	color: white;
-	display: inline-block;
 	background-color: #ce7502;
 	border: 2px solid white;
-	text-align: center;
 	}
 img.center
 {
@@ -536,7 +516,6 @@ td
 a /*What most links will look like*/
 {
 	text-decoration: none;
-	color: #ce7502;
 	border: 1 px solid #19103b;
 }
 p /*Paragraph formatting*/

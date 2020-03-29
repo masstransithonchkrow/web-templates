@@ -173,14 +173,13 @@ text-align: left;
 }
 .dropChar 
 {
-	display: block; 
-	width: 50px; 
-	height: 50px; 
+	display: inline-block; 
+	width: 3vw; 
+	height: 3vw; 
 	margin: 0 10px 0 10px; 
 	color: white;
-	display: inline-block;
 	background-color: #29309b;
-	border: 2px solid black;
+	border: 2px solid white;
 	text-align: center;
 	}
 iframe,img.center
@@ -370,15 +369,9 @@ text-rendering: optimizeLegibility;
 }
 .dropChar 
 {
-	display: block; 
-	width: 50px; 
-	height: 50px; 
-	margin: 0 10px 0 10px; 
 	color: black;
-	display: inline-block;
 	background-color: #e5d8ae;
 	border: 2px solid black;
-	text-align: center;
 	}
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
 	font-size: 2vw;
