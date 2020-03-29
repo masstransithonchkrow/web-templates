@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Disallowed</title>
+<link rel="stylesheet" type="text/css" href="https://365stops.org/error.css" />
+<link rel="shortcut icon" type="image/icon" href="https://365stops.org/365stops.ico"/>
+<meta charset="utf-8">
+<style>
+html 
+{
+background-color: #b0b0b0;
+}
+</style>
+</head>
+<body>
+<h1><span id="warningHeaderY">403</span> <span id="warningHeaderG">|</span> <span id="warningHeaderR">No Boarding</span></h1>
+<p id="returnHeader">"Nobody's Supposed To Be Here"</p>
+<p id="returnHeader"><a href="https://365stops.org" title="I'm sorry you couldn't find what you were looking for - wanna go home?">Return to the Home Page</a></p>
+</body>
+</html>
