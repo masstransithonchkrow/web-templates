@@ -12,7 +12,8 @@ https://botsin.space/@accessibleColors/103833621005988313
 */
 *
 {
-font-family: 'Orbitron', 'Noto Emoji', sans-serif;
+font-family: 'Orbitron', 'Emoji One', sans-serif;
+user-select: none;
 }
 @font-face
 {
@@ -22,8 +23,8 @@ text-rendering: optimizeLegibility;
 }
 @font-face
 {
-	font-family: 'Noto Emoji';
-	src: url('fonts/NotoEmoji-661A.ttf');
+	font-family: 'Emoji One';
+	src: url('fonts/emojione-svg.woff');
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
@@ -163,7 +164,7 @@ text-align: left;
 }
 .txtFrame
 {
-	border: 1px solid black;
+	border: 1px solid #ce7502;
 	font-size: 2vw;
 	background-color: black;
 	margin: 5px;
@@ -284,7 +285,7 @@ td
 }
 .returnTag
 {
-	font-family: 'Noto Emoji';
+	font-family: 'Emoji One';
 }
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
@@ -314,7 +315,7 @@ p  /*Paragraph formatting*/
 {
 *
 {
-	font-family: 'Orbitron', 'Noto Emoji' serif;
+	font-family: 'Orbitron', 'Emoji One' serif;
 }
 /* Style the icon bar links for Mobile */
 .icon-bar a 
@@ -331,8 +332,8 @@ text-rendering: optimizeLegibility;
 }
 @font-face
 {
-	font-family: 'Noto Emoji';
-	src: url('fonts/NotoEmoji-661A.ttf');
+	font-family: 'Emoji One';
+	src: url('fonts/emojione-svg.woff');
 	text-rendering: optimizeLegibility;
 }
 .homeLine
@@ -368,19 +369,6 @@ text-rendering: optimizeLegibility;
 {
 	color: white;
 	font-family: 'serif';
-}
-.txtFrame
-{
-	border: 1px solid black;
-	font-size: 1.5em;
-	background-color: black;
-	margin: 5px;
-	white-space: nowrap;
-}
-.txtFrame span
-{
-		display: table;
-		
 }
 .dropChar 
 {
@@ -437,7 +425,7 @@ width: 35%;
 }
 .txtFrame a:hover
 {
-	color: white;
+	color: #ce7502;
 }
 #dtpWidget img
 {
@@ -457,7 +445,7 @@ td
 }
 .returnTag
 {
-	font-family: 'Noto Emoji';
+	font-family: 'Emoji One';
 }
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
