@@ -1,10 +1,9 @@
 /* Obtained from */
 /* https://w3bits.com/labs/css-dropdown-menu/ */
 .wrapper {
-  max-width: 970px;
-  margin: 3em auto;
+  width: content-width;
+  margin: 1.2vw auto;
 }
-
 .menu,
 .sub-menu {
   margin: 0;
@@ -16,19 +15,14 @@
 .dropdown-icon {
   border: 0 solid;
 }
-
 .menu .menu-item {
   display: block;
-}
-.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
-	font-size: 1.3em;
-	position: relative;
 }
 .menu .menu-item:not(:last-child) {
   border-width: 0 0 1px;
 }
 .menu .menu-item a {
-  padding: 1em;
+  padding: 0.7vw;
   display: flex;
   justify-content: space-between;
 }
@@ -64,20 +58,20 @@
   border-width: 0 0 0 1px;
 }
 .menu .dropdown-icon:after {
-	font-family: 'Noto Emoji';
+	font-family: 'Emoji One';
   content: "🚦";
   display: block;
   transition: transform .25s ease-in-out;
 }
 
-.nav--rtl {
-  direction: rtl;
-  unicode-bidi: bidi-override;
-}
-.nav--rtl .menu .dropdown-icon {
-  margin: -1em .5em -1em -1em;
-  border-width: 0 1px 0 0;
-}
+/* .nav--rtl { */
+  /* direction: rtl; */
+  /* unicode-bidi: bidi-override; */
+/* } */
+/* .nav--rtl .menu .dropdown-icon { */
+  /* margin: -1em .5em -1em -1em; */
+  /* border-width: 0 1px 0 0; */
+/* } */
 @media only screen and (min-width: 1540px) {
   .nav .menu {
     display: flex;
