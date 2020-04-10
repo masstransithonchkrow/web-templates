@@ -1,20 +1,14 @@
 /*Font-Space Start*/
 /*Normal -Font*/
 /*Orbitron is an OpenType Font*/
-/*
-###########################################
+/*##########################################
 Colors Used For This CSS File
 https://botsin.space/@accessibleColors/103833621005988313
 #ce7502 (206 117 2) or Meteor
 #19103b (25 16 59) or Haiti
 #757575 (117 117 117) or Dark Gray
-###########################################
-*/
-*
-{
-font-family: 'Orbitron', 'Emoji One', sans-serif;
-user-select: none;
-}
+###########################################*/
+*{user-select: none; font-family: Orbitron, sans-serif;}
 @font-face
 {
 font-family: 'Orbitron';
@@ -30,19 +24,10 @@ text-rendering: optimizeLegibility;
 /*Font-Space End*/
 html 
 { 
-  background: url(img/nereid-full-moon.gif) no-repeat center center fixed; 
+  background: url(img/nereid-full-moon.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-}
-/* Style the icon bar links for Desktop */
-.icon-bar a 
-{
-	display: block;
-	text-align: center;
-	padding-left: 12px;
-	font-size: 1.6em;
-	border: 2px solid white;
 }
 .titleLine
 {
@@ -52,20 +37,17 @@ html
 	text-align: center;
 	font-weight: bold;
 }
-.homeLine
-{
-	background-color: black;
-	color: #ce7502;
-	font-size: 2vw;
-	text-align: center;
-	font-weight: bold;
-}
 .splash
 {
+	font-family: 'Orbitron', sans-serif;
 	background: linear-gradient(to bottom, #19103b, black);
 	background-size: 100%;
 	padding-bottom: 10px;
 	text-shadow: 1px 1px #757575;
+	color: #ce7502;
+	font-size: 2vw;
+	text-align: center;
+	font-weight: bold;
 }
 .storyBorder
 {
@@ -73,6 +55,14 @@ html
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ce7502;
+}
+.chatWindow
+{
+	float: left;
+	width: 50%;
+	margin: 2vw;
+	border: 2px solid white;
+	background-color: #757575;
 }
 .emphasis
 {
@@ -91,7 +81,7 @@ html
 }
 .txtPanel
 {
-	font-size: 2vw;
+	font-size: 2.2vw;
 	font-weight: bold;
 	text-align: left;
 	background-color:  black;
@@ -99,9 +89,7 @@ html
 	border: 3px solid #19103b;
 }
 .txtPanel a
-{
-	text-shadow: 1px 1px #b0b0b0;
-}
+{	text-shadow: 1px 1px #b0b0b0; }
 .txtCtrPanel
 {
 	background-color: black;
@@ -134,19 +122,14 @@ text-align: left;
 	float: left;
 	width: 40%;
 }
-#desktop
-{
-	display: none;
-}
+#desktop{display: none;}
 #mobile
 {
 	display: block;
 	background-color: #ce7502;
 }
 #mobile span
-{
-	border: 1px solid black;
-}
+{	border: 1px solid black;}
 .wholeWide
 {
 	margin-left: auto;
@@ -154,11 +137,9 @@ text-align: left;
 	width: 80%;
 }
 .eastOfNav
-{
-	padding-left: 8vw;
-}
+{	padding-left: 16vw; }
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
-	font-size: 1.3em;
+	font-size: 1.5vw;
 	font-family: sans-serif;
 	position: relative;
 }
@@ -170,17 +151,11 @@ text-align: left;
 	margin: 5px;
 	white-space: nowrap;
 }
-.txtFrame span
-{
-		display: table;
-		
-}
-.txtFrame a:hover
-{
-	color: #ce7502;
-}
+.txtFrame span { display: table;}
+.txtFrame a:hover {	color: #ce7502;}
 .dropChar 
 {
+	font-family: 'Orbitron', sans-serif;
 	display: inline-block; 
 	width: 3vw; 
 	height: 3vw;
@@ -250,10 +225,7 @@ border-radius: 20px 30px 0px 16px;
 	 opacity: 0.9;
 	 width: 100%;
 }
-.row {
-  display: flex;
-}
-
+.row {  display: flex;}
 /* Create three equal columns that sits next to each other */
 .column {
   flex: 33.33%;
@@ -276,17 +248,8 @@ td
 	padding: 5px;
 	font-size: 1.1em;
 }
-.leftHeading
-{
-	text-align: center;
-	background: linear-gradient(#19103b, black);
-	color: white;
-	font-weight: bold;
-}
-.returnTag
-{
-	font-family: 'Emoji One';
-}
+.leftHeading{	display: none;}
+.returnTag{	font-family: 'Emoji One';}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
   color: white;
@@ -308,47 +271,22 @@ a /*What most links will look like*/
 p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 1.8vw;
+	font-size: 2vw;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width: 1540px)  
 {
-*
-{
-	font-family: 'Orbitron', 'Emoji One' serif;
-}
-/* Style the icon bar links for Mobile */
-.icon-bar a 
-{
-  padding-left: 10px;
-  font-size: 1.3em;
-}
-/*Font Face for Mobile*/
-@font-face
-{
-font-family: 'Orbitron', serif;
-src: url('fonts/Orbitron-Regular.ttf');
-text-rendering: optimizeLegibility;
-}
-@font-face
-{
-	font-family: 'Emoji One';
-	src: url('fonts/emojione-svg.woff');
-	text-rendering: optimizeLegibility;
-}
-.homeLine
-{
+	*{font-family: Orbitron, serif;}
+.splash 
+{ 
+	background: linear-gradient(to top, black, #ce7502); 
+	font-family: 'Orbitron', serif;
+	color: #19103b;
+	font-size: 2.4vw;
 	color: #19103b;
 	font-size: 2.4vw;
 }
-.splash
-{
-	background: linear-gradient(to top, black, #ce7502);
-}
-.storyBorder
-{
-	background-color: #19103b;
-}
+.storyBorder {background-color: #19103b;}
 .emphasis
 {
 	font-family: 'Orbitron', serif;
@@ -356,7 +294,6 @@ text-rendering: optimizeLegibility;
 }
 .txtPanel
 {
-	font-size: 2.5vw;
 	border: 3px solid #ce7502;
 }
 .txtCtrPanel
@@ -372,6 +309,7 @@ text-rendering: optimizeLegibility;
 }
 .dropChar 
 {
+	font-family: 'Orbitron', serif;
 	color: white;
 	background-color: #ce7502;
 	border: 2px solid white;
@@ -380,6 +318,11 @@ ul, ol
 {
 	background-color: #ce7502;
 	color: black;
+}
+.menu .menu-item.has-children
+{
+	font-size: 2vw;
+	font-family: serif;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut
@@ -392,64 +335,20 @@ ul, ol
 	background-color: #19103b;
 	color: #ce7502;
 }
-.topic
-{
-	color: #19103b;
-}
-.current
-{
-	color: white;
-}
-#rightside
-{ 	
-float: right;
-width: 35%;
-}
-#leftside
-{
-	float: left;
-	width: 40%;
-}
+.topic {color: #19103b;}
+.current {color: white; }
 #desktop
 {
 	display: block;
 	background-color: #19103b;
 }
-#desktop span
-{
-	border: 1px solid white;
-}
-#mobile
-{
-	display: none;
-}
-.txtFrame a:hover
-{
-	color: #ce7502;
-}
-#dtpWidget img
-{
-	 width: 60%;
-    height: 100%;
-    display: block;
-	float: right;
-}
+#desktop span {	border: 1px solid white;}
+#mobile {	display: none;}
+.txtFrame a:hover {	color: #ce7502;}
 td
 {
 	color: white;
 	padding: 2px;
-}
-.leftHeading
-{
-	background: linear-gradient(#ce7502, black);
-}
-.returnTag
-{
-	font-family: 'Emoji One';
-}
-/*Submenu data for Mobile*/
-.nav .menu > .menu-item, .nav .menu > .menu-item > a {
-  color: white;
 }
 .nav .sub-menu {
   background-color: #19103b;
@@ -459,30 +358,19 @@ td
   background-color: #ce7502;
   color: white;
 }
-a /*What most links will look like*/
-{
-	text-decoration: none;
-	border: 1 px solid #19103b;
-}
-p /*Paragraph formatting*/
-{
-	font-family: serif;
-	font-size: 2.2vw;
-}
+a /*What most links will look like*/{	border: 1 px solid #19103b;}
+p /*Paragraph formatting*/{font-family: serif;}
 }
 @media print
 {
 	.storyBorder
-	{
-		width: 98%;
-	}
+	{	width: 98%;}
 	.no-print, .no-print *
-	{
-		display: none !important;
-	}
+	{	display: none !important;	}
 	.dropChar
 	{
 		border: 1px solid black;
+		color: black;
 	}
 }
 /* Sidebar Position Data For Both Desktop and Mobile */
@@ -490,18 +378,18 @@ p /*Paragraph formatting*/
 {
   opacity: 0.8;
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 1%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-60%);
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
 }
 .icon-bar a
 {
 	display: block;
 	text-align: center;
 	margin-left: 0.5vw;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	padding: 1em;
 	border: 2px solid black;
 }
