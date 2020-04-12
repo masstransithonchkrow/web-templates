@@ -274,7 +274,7 @@ p  /*Paragraph formatting*/
 	font-size: 2vw;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
-@media screen and (max-width: 1540px)  
+@media screen and (max-width:1024px)  
 {
 	*{font-family: Orbitron, serif;}
 .splash 
@@ -359,7 +359,7 @@ td
   color: white;
 }
 a /*What most links will look like*/{	border: 1 px solid #19103b;}
-p /*Paragraph formatting*/{font-family: serif;}
+p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw;}
 }
 @media print
 {

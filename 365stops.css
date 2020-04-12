@@ -281,7 +281,7 @@ p /*Paragraph formatting*/
 	color: black;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
-@media screen and (max-width: 1540px)  
+@media screen and (max-width: 1024px)  
 {
 	*{font-family: Orbitron, serif;}
 .titleLine {font-family: 'Orbitron', serif;}
@@ -394,7 +394,7 @@ a /*What most links will look like*/
 	color: #e5d8ae;
 	border: 1 px solid #29309b;
 }
-p /*Paragraph formatting*/{font-family: serif; color: white;}
+p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw; color: white;}
 }
 @media print
 {
