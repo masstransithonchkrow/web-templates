@@ -39,7 +39,7 @@ html
 	text-align: center;
 	font-weight: bold;
 }
-.splash
+.splash, .splash h1
 {
 	font-family: 'Orbitron', sans-serif;
 	background: linear-gradient(to bottom, #757575, #29309b);
@@ -47,7 +47,7 @@ html
 	padding-bottom: 10px;
 	text-shadow: 1px 1px #b0b0b0;
 	color: #e5d8ae;
-	font-size: 2vw;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -285,12 +285,11 @@ p /*Paragraph formatting*/
 {
 	*{font-family: Orbitron, serif;}
 .titleLine {font-family: 'Orbitron', serif;}
-.splash 
+.splash, .splash h1
 {	
 	font-family: 'Orbitron', serif;
 	background: linear-gradient(to bottom, #757575, #e5d8ae);
 	color: #29309b;
-	font-size: 2.4vw;
 	}
 .storyBorder{	background-color: #29309b;}
 .emphasis

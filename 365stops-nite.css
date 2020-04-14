@@ -37,7 +37,7 @@ html
 	text-align: center;
 	font-weight: bold;
 }
-.splash
+.splash, .splash h1
 {
 	font-family: 'Orbitron', sans-serif;
 	background: linear-gradient(to bottom, #19103b, black);
@@ -45,7 +45,7 @@ html
 	padding-bottom: 10px;
 	text-shadow: 1px 1px #757575;
 	color: #ce7502;
-	font-size: 2vw;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -277,12 +277,12 @@ p  /*Paragraph formatting*/
 @media screen and (max-width:1024px)  
 {
 	*{font-family: Orbitron, serif;}
-.splash 
+.splash, .splash h1
 { 
 	background: linear-gradient(to top, black, #ce7502); 
 	font-family: 'Orbitron', serif;
 	color: #19103b;
-	font-size: 2.4vw;
+	/* font-size: 2.4vw; */
 	color: #19103b;
 	font-size: 2.4vw;
 }
