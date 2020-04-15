@@ -33,7 +33,7 @@ html
 {
 	background-color: black;
 	color: white;
-	font-size: 2vw;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -76,7 +76,7 @@ html
 }
 .banner
 {
-	font-size: 1.3vw;
+	font-size: 2vw;
 	width: 100%;
 }
 .txtPanel
@@ -97,7 +97,7 @@ html
 	font-size: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 	text-align: center;
 	border: 3px solid #19103b;
 	color: white;
@@ -139,7 +139,6 @@ text-align: left;
 .eastOfNav
 {	padding-left: 16vw; }
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
-	font-size: 1.5vw;
 	font-family: sans-serif;
 	position: relative;
 }
@@ -157,8 +156,8 @@ text-align: left;
 {
 	font-family: 'Orbitron', sans-serif;
 	display: inline-block; 
-	width: 3vw; 
-	height: 3vw;
+	width: 3.2vw; 
+	height: 3.2vw;
 	margin: 0 10px 0 10px; 
 	color: white;
 	background-color: #19103b;
@@ -271,7 +270,7 @@ a /*What most links will look like*/
 p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 2vw;
+	font-size: 2.5vw;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width:1024px)  
@@ -282,9 +281,8 @@ p  /*Paragraph formatting*/
 	background: linear-gradient(to top, black, #ce7502); 
 	font-family: 'Orbitron', serif;
 	color: #19103b;
-	/* font-size: 2.4vw; */
+	font-size: 1.3em;
 	color: #19103b;
-	font-size: 2.4vw;
 }
 .storyBorder {background-color: #19103b;}
 .emphasis
@@ -295,18 +293,21 @@ p  /*Paragraph formatting*/
 .txtPanel
 {
 	border: 3px solid #ce7502;
+	font-size: 1.1em;
 }
 .txtCtrPanel
 {
-	font-size: 2.4vw;
-	width: 50%;
+	font-size: 1.4em;
 	border: 3px solid #ce7502;
 }
+.dropChar {width: 2em; height: 2em;}
+	
 .inline span
 {
 	color: white;
 	font-family: 'serif';
 }
+.txtFrame {font-size: 1.2em;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -321,7 +322,7 @@ ul, ol
 }
 .menu .menu-item.has-children
 {
-	font-size: 2vw;
+	font-size: 1.2em;
 	font-family: serif;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
@@ -344,7 +345,6 @@ ul, ol
 }
 #desktop span {	border: 1px solid white;}
 #mobile {	display: none;}
-.txtFrame a:hover {	color: #ce7502;}
 td
 {
 	color: white;
@@ -359,7 +359,7 @@ td
   color: white;
 }
 a /*What most links will look like*/{	border: 1 px solid #19103b;}
-p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw;}
+p /*Paragraph formatting*/{font-family: serif; font-size: 1em; }
 }
 @media print
 {
@@ -389,9 +389,9 @@ p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw;}
 	display: block;
 	text-align: center;
 	margin-left: 0.5vw;
-	font-size: 2vw;
-	padding: 1em;
-	border: 2px solid black;
+	font-size: 2.5vw;
+	padding: 0.4em 0 0.4em 0;
+	border: 1.5px solid black;
 }
 .icon-bar a:hover 
 {
