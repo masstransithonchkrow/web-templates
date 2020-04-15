@@ -10,59 +10,36 @@ html
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-size: cover;
-  font-family: Verdana, Arial, 'Helvetica Neue', sans-serif;
-}
-h1
-{
-	width: 100%;
+  }
+h1 {	width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	opacity: 0.7;
-}
-
-#inset 
-{
-	font-style: italic;
-	text-align: center;
-	border-left: 6px solid #c0f1fc;
-	background-color: #b0b0b0;
-}
-a 
-{
+	opacity: 0.7;}
+a {
 	text-decoration: none;
-	color: #efe4b0;
-}
-#warningHeaderR
+	color: white;
+	text-shadow: 1px 0.5	px #b0b0b0;
+	}
+.warningHeader, .warningHeader h1,span
 {
 	font-family: 'Karma Future', serif;
-	font-size: 5em;
+	font-size: 8vw;
 	background-color: black;
-	color: red;
 	text-align: center;
 }
-#warningHeaderG
-{
-	font-family: 'Karma Future', serif;
-	font-size: 5em;
-	background-color: black;
+.colorG{
 	color: green;
-	text-align: center;
-}
-#warningHeaderY
-{
-	font-family: 'Karma Future', serif;
-	font-size: 5em;
-	background-color: black;
+	text-align: center;}
+.colorR{
+	color: red;
+	text-align: center;}
+.colorY{
 	color: yellow;
-	text-align: center;
-}
-#returnHeader
-{
+	text-align: center; }
+.returnHeader{
 	font-family: 'Karma Future', serif;
-	font-size: 3.5em;
 	color: yellow;
-	background-color: #757575;
-	text-align: center;
-}
+	font-size: 5vw;
+	background-color: #b0b0b0;
+	text-align: center;}

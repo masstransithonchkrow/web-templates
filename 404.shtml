@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="https://365stops.org/error.css" />
 <link rel="shortcut icon" type="image/icon" href="365stops.ico"/>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
 html 
 {
@@ -13,9 +14,9 @@ background-color: #b0b0b0;
 </style>
 </head>
 <body>
-<h1><span id="warningHeaderY">404</span> <span id="warningHeaderG">|</span> <span id="warningHeaderR">Not In Service</span></h1>
-<p id="returnHeader">"This is Awkward. <!--#echo var="REQUEST_URI" --> isn't up yet or was taken down."</p>
-<p id="returnHeader"><a href="https://365stops.org/sitemap.html" title="I'm sorry you couldn't find what you were looking for  - what...were you looking for?">What Are My Options?</a></p>
-<p id="returnHeader"><span onclick="history.back()" title="Sorry about this time. Rewind?">Take Us Back</span></p>
+<h1><span class="warningHeader colorY">404</span> <span class="warningHeader colorG">|</span> <span class="warningHeader colorR">Not In Service</span></h1>
+<p class="returnHeader">"This is Awkward. <!--#echo var="REQUEST_URI" --> isn't up yet or was taken down."</p>
+<p class="returnHeader"><a href="https://365stops.org/sitemap.html" title="I'm sorry you couldn't find what you were looking for  - what...were you looking for?">What Are My Options?</a></p>
+<p class="returnHeader"><span onclick="history.back()" title="Sorry about this time. Rewind?">Take Us Back</span></p>
 
 </html>
