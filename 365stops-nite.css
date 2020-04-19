@@ -55,6 +55,7 @@ html
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ce7502;
+	color: black;
 }
 .chatWindow
 {
@@ -276,6 +277,7 @@ p  /*Paragraph formatting*/
 @media screen and (max-width:1024px)  
 {
 	*{font-family: Orbitron, serif;}
+	.titleLine {font-family: 'Orbitron', serif; font-size: 1.7em;}
 .splash, .splash h1
 { 
 	background: linear-gradient(to top, black, #ce7502); 
@@ -284,7 +286,7 @@ p  /*Paragraph formatting*/
 	font-size: 1.3em;
 	color: #19103b;
 }
-.storyBorder {background-color: #19103b;}
+.storyBorder {background-color: #19103b; color: white;}
 .emphasis
 {
 	font-family: 'Orbitron', serif;

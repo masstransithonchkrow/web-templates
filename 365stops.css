@@ -35,7 +35,7 @@ html
 	font-family: 'Orbitron', sans-serif;
 	background-color: #b0b0b0;
 	color: black;
-	font-size: 2vw;
+	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -79,7 +79,7 @@ html
 }
 .banner
 {
-	font-size: 1.3vw;
+	font-size: 2vw;
 	width: 100%;
 }
 .txtPanel
@@ -100,7 +100,7 @@ html
 	font-size: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 	text-align: center;
 	border: 3px solid #29309b;
 }
@@ -140,7 +140,6 @@ text-align: left;
 .eastOfNav
 {	padding-left: 16vw; }
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
-	font-size: 1.5vw;
 	font-family: sans-serif;
 	position: relative;
 }
@@ -159,8 +158,8 @@ text-align: left;
 {
 	font-family: 'Orbitron', sans-serif;
 	display: inline-block; 
-	width: 3vw; 
-	height: 3vw; 
+	width: 3.2vw; 
+	height: 3.2vw; 
 	margin: 0 10px 0 10px; 
 	color: white;
 	background-color: #29309b;
@@ -274,24 +273,25 @@ a /*What most links will look like*/
 	color: #29309b;
 	border: 1 px solid #e5d8ae;
 }
-p /*Paragraph formatting*/
+.paragraph, p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 2vw; 
+	font-size: 2.5vw; 
 	color: black;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width: 1024px)  
 {
 	*{font-family: Orbitron, serif;}
-.titleLine {font-family: 'Orbitron', serif;}
+.titleLine {font-family: 'Orbitron', serif; font-size: 1.7em;}
 .splash, .splash h1
 {	
 	font-family: 'Orbitron', serif;
+	font-size: 1.3em;
 	background: linear-gradient(to bottom, #757575, #e5d8ae);
 	color: #29309b;
 	}
-.storyBorder{	background-color: #29309b;}
+.storyBorder{	background-color: #29309b; color: white;}
 .emphasis
 {
 	font-family: 'Orbitron', serif;
@@ -301,17 +301,20 @@ p /*Paragraph formatting*/
 .txtPanel
 {
 	border: 3px solid #e5d8ae;
+	font-size: 1.1em;
 }
 .txtCtrPanel
 {
-	font-size: 2.4vw;
+	font-size: 1.4em;
 	border: 3px solid #e5d8ae;
 }
+.dropChar {width: 1.5em; height: 1.5em;}
 .inline span
 {
 	color: black;
 	font-family: 'serif';
 }
+.txtFrame {font-size: 1.2em;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -326,7 +329,7 @@ ul, ol
 }
 .menu .menu-item.has-children
 {
-	font-size: 2vw;
+	font-size: 1.2em;
 	font-family: serif;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
@@ -393,7 +396,7 @@ a /*What most links will look like*/
 	color: #e5d8ae;
 	border: 1 px solid #29309b;
 }
-p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw; color: white;}
+.paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; color: white;}
 }
 @media print
 {
@@ -427,9 +430,9 @@ p /*Paragraph formatting*/{font-family: serif; font-size: 2.4vw; color: white;}
 	display: block;
 	text-align: center;
 	margin-left: 0.5vw;
-	font-size: 2vw;
-	padding: 1em;
-	border: 2px solid black;
+	font-size: 2.5vw;
+	padding: 0.4em 0 0.4em 0;
+	border: 1.5px solid black;
 }
 .icon-bar a:hover 
 {
