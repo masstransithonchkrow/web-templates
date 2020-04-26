@@ -6,7 +6,6 @@ Colors Used For This Site
 https://botsin.space/@accessibleColors/103808139873655431
 #e5d8ae (229 216 174) or Hampton
 #29309b (41 48 155) or Torea Bay
-#b0b0b0 or 117-117-117 or Dark Gray
 #b0b0b0 or 176-176-176 or Light Gray
 ###########################################*/
 *{user-select: none; font-family: Orbitron, sans-serif;}
@@ -253,10 +252,7 @@ td
 	font-size: 1.1em;
 }
 .leftHeading{	display: none;}
-.returnTag
-{
-	font-family: 'Emoji One';
-}
+.returnTag {	font-family: Emoji One;}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
 .nav .sub-menu {
@@ -298,6 +294,7 @@ a /*What most links will look like*/
 	background-color:  #e5d8ae;
 	color: black;
 }
+.banner {font-size: 2.8vw;}
 .txtPanel
 {
 	border: 3px solid #e5d8ae;
@@ -377,10 +374,7 @@ td
 	color: white;
 	padding: 2px;
 }
-.returnTag
-{
-	font-family: 'Emoji One';
-}
+.returnTag {	font-family: Emoji One;}
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {
