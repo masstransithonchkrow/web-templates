@@ -16,6 +16,7 @@ background-color: #b0b0b0;
 <body>
 <h1><span class="warningHeader colorY">403</span> <span class="warningHeader colorG">|</span> <span class="warningHeader colorR">No Boarding</span></h1>
 <p class="returnHeader">"Nobody's Supposed To Be Here"</p>
+<p class="returnHeader"><a href="https://365stops.org/help.html#hotlinking">Hotlinking Policy</a></p>
 <p class="returnHeader"><a href="https://365stops.org/sitemap.html" title="I'm sorry you couldn't find what you were looking for  - what...were you looking for?">What Are My Options?</a></p>
 </body>
 </html>
