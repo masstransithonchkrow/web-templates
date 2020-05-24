@@ -17,8 +17,8 @@ text-rendering: optimizeLegibility;
 }
 @font-face
 {
-	font-family: 'Emoji One';
-	src: url('fonts/emojione-svg.woff');
+	font-family: 'Twitter Color Emoji';
+	src: url('fonts/ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
@@ -38,7 +38,7 @@ html
 	text-align: center;
 	font-weight: bold;
 }
-.splash, .splash h1
+.splash, .splash h1, .splash a
 {
 	font-family: 'Orbitron', sans-serif;
 	background: linear-gradient(to bottom, #757575, #29309b);
@@ -62,9 +62,9 @@ html
 {
 	float: left;
 	width: 50%;
-	margin: 2vw;
 	border: 2px solid white;
 	background-color: #b0b0b0;
+	font-size: 2.2vw;
 }
 .emphasis
 {
@@ -89,7 +89,7 @@ html
 	text-align: left;
 	background-color:  #b0b0b0;
 	color: black;
-	border: 3px solid #29309b;
+	border: 0.2vw solid #29309b;
 }
 .txtPanel span,a {	text-shadow: 1px 1px #757575;}
 .txtCtrPanel
@@ -123,13 +123,13 @@ text-align: left;
 	float: left;
 	width: 40%;
 }
-#desktop  {display: none;}
-#mobile
+#mobile  {display: none;}
+#desktop
 {
 	display: block;
 	background-color: #e5d8ae;
 }
-#mobile span {border: 1px solid black;}
+#desktop span {border: 1px solid black;}
 .wholeWide
 {
 	margin-left: auto;
@@ -150,7 +150,7 @@ text-align: left;
 	margin: 5px;
 	white-space: nowrap;
 }
-.txtFrame span{display: table;}
+.txtFrame span { display: table; font-size: 1.2em;}
 .txtFrame a {	color: #29309b;}
 .txtFrame a:hover {	color: #e5d8ae;}
 .dropChar 
@@ -252,7 +252,7 @@ td
 	font-size: 1.1em;
 }
 .leftHeading{	display: none;}
-.returnTag {	font-family: Emoji One;}
+.returnTag {	font-family: Twitter Color Emoji;}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
 .nav .sub-menu {
@@ -279,8 +279,8 @@ a /*What most links will look like*/
 @media screen and (max-width: 1024px)  
 {
 	*{font-family: Orbitron, serif;}
-.titleLine {font-family: 'Orbitron', serif; font-size: 1.7em;}
-.splash, .splash h1
+.titleLine {font-family: 'Orbitron', serif; font-size: 1em;}
+.splash, .splash h1, .splash a
 {	
 	font-family: 'Orbitron', serif;
 	font-size: 1.3em;
@@ -288,6 +288,7 @@ a /*What most links will look like*/
 	color: #29309b;
 	}
 .storyBorder{	background-color: #29309b; color: white;}
+.chatWindow {font-size: 1.4em;}
 .emphasis
 {
 	font-family: 'Orbitron', serif;
@@ -297,7 +298,7 @@ a /*What most links will look like*/
 .banner {font-size: 2.8vw;}
 .txtPanel
 {
-	border: 3px solid #e5d8ae;
+	border: 0.5vw solid #e5d8ae;
 	font-size: 1.1em;
 }
 .txtCtrPanel
@@ -311,7 +312,7 @@ a /*What most links will look like*/
 	color: black;
 	font-family: 'serif';
 }
-.txtFrame {font-size: 1.2em;}
+.txtFrame {font-size: 1em;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -354,14 +355,14 @@ width: 35%;
 	float: left;
 	width: 40%;
 }
-#desktop
+#mobile
 {
 	display: block;
 	background-color: #29309b;
 }
-#desktop span
+#mobile span
 {border: 1px solid white;}
-#mobile	{display: none;}
+#desktop	{display: none;}
 #dtpWidget img
 {
 	 width: 60%;
@@ -374,7 +375,7 @@ td
 	color: white;
 	padding: 2px;
 }
-.returnTag {	font-family: Emoji One;}
+.returnTag {	font-family: Twitter Color Emoji;}
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {

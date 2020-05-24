@@ -17,8 +17,8 @@ text-rendering: optimizeLegibility;
 }
 @font-face
 {
-	font-family: 'Emoji One';
-	src: url('fonts/emojione-svg.woff');
+	font-family: 'Twitter Color Emoji';
+	src: url('fonts/ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
@@ -61,9 +61,9 @@ html
 {
 	float: left;
 	width: 50%;
-	margin: 2vw;
 	border: 2px solid white;
 	background-color: #757575;
+	font-size: 2.5vw;
 }
 .emphasis
 {
@@ -87,7 +87,7 @@ html
 	text-align: left;
 	background-color:  black;
 	color: white;
-	border: 3px solid #19103b;
+	border: 0.2vw solid #19103b;
 }
 .txtPanel a
 {	text-shadow: 1px 1px #b0b0b0; }
@@ -123,13 +123,13 @@ text-align: left;
 	float: left;
 	width: 40%;
 }
-#desktop{display: none;}
-#mobile
+#mobile{display: none;}
+#desktop
 {
 	display: block;
 	background-color: #ce7502;
 }
-#mobile span
+#desktop span
 {	border: 1px solid black;}
 .wholeWide
 {
@@ -145,13 +145,14 @@ text-align: left;
 }
 .txtFrame
 {
-	border: 1px solid #ce7502;
+	border: 2px solid #ce7502;
 	font-size: 2vw;
 	background-color: black;
+	color: white;
 	margin: 5px;
 	white-space: nowrap;
 }
-.txtFrame span { display: table;}
+.txtFrame span { display: table; font-size: 1.2em;}
 .txtFrame a:hover {	color: #ce7502;}
 .dropChar 
 {
@@ -249,7 +250,7 @@ td
 	font-size: 1.1em;
 }
 .leftHeading{	display: none;}
-.returnTag{	font-family: 'Emoji One';}
+.returnTag {	font-family: Twitter Color Emoji;}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {
   color: white;
@@ -268,7 +269,7 @@ a /*What most links will look like*/
 	color: white;
 	border: 1 px solid #ce7502;
 }
-p  /*Paragraph formatting*/
+.paragraph, p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
 	font-size: 2.5vw;
@@ -277,7 +278,7 @@ p  /*Paragraph formatting*/
 @media screen and (max-width:1024px)  
 {
 	*{font-family: Orbitron, serif;}
-	.titleLine {font-family: 'Orbitron', serif; font-size: 1.7em;}
+	.titleLine {font-family: 'Orbitron', serif; font-size: 1em;}
 .splash, .splash h1
 { 
 	background: linear-gradient(to top, black, #ce7502); 
@@ -287,14 +288,16 @@ p  /*Paragraph formatting*/
 	color: #19103b;
 }
 .storyBorder {background-color: #19103b; color: white;}
+.chatWindow {font-size: 1.4em;}
 .emphasis
 {
 	font-family: 'Orbitron', serif;
 	background-color:  #ce7502;
 }
+.banner {font-size: 2.8vw;}
 .txtPanel
 {
-	border: 3px solid #ce7502;
+	border: 0.5vw solid #ce7502;
 	font-size: 1.1em;
 }
 .txtCtrPanel
@@ -302,14 +305,14 @@ p  /*Paragraph formatting*/
 	font-size: 1.4em;
 	border: 3px solid #ce7502;
 }
-.dropChar {width: 2em; height: 2em;}
+.dropChar {width: 1.5em; height: 1.5em;}
 	
 .inline span
 {
 	color: white;
 	font-family: 'serif';
 }
-.txtFrame {font-size: 1.2em;}
+.txtFrame {font-size: 1em; border: 2px solid #19103b;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -340,18 +343,19 @@ ul, ol
 }
 .topic {color: #19103b;}
 .current {color: white; }
-#desktop
+#mobile
 {
 	display: block;
 	background-color: #19103b;
 }
-#desktop span {	border: 1px solid white;}
-#mobile {	display: none;}
+#dmobile span {	border: 1px solid white;}
+#desktop {	display: none;}
 td
 {
 	color: white;
 	padding: 2px;
 }
+.returnTag {	font-family: Twitter Color Emoji;}
 .nav .sub-menu {
   background-color: #19103b;
   list-style: none;
@@ -361,7 +365,7 @@ td
   color: white;
 }
 a /*What most links will look like*/{	border: 1 px solid #19103b;}
-p /*Paragraph formatting*/{font-family: serif; font-size: 1em; }
+.paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; }
 }
 @media print
 {
