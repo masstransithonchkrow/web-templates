@@ -256,12 +256,12 @@ td
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
 .nav .sub-menu {
-  background-color: #e5d8ae;
+  background-color: #b0b0b0;
   list-style: none;
 }
 .nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color:  #29309b;
-  color: white;
+  background-color:  white;
+  color: black;
 }
 a /*What most links will look like*/
 {
@@ -269,6 +269,7 @@ a /*What most links will look like*/
 	color: #29309b;
 	border: 1 px solid #e5d8ae;
 }
+a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 .paragraph, p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
@@ -379,11 +380,11 @@ td
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {
-  background-color: #29309b;
+  background-color: #b0b0b0;
   list-style: none;
 }
 .nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color:  #e5d8ae;
+  background-color: white;
   color: black;
 }
 a /*What most links will look like*/
@@ -391,6 +392,7 @@ a /*What most links will look like*/
 	color: #e5d8ae;
 	border: 1 px solid #29309b;
 }
+a:visited /*What visited links will look like*/{	color: #29309b;}
 .paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; color: white;}
 }
 @media print
@@ -434,19 +436,9 @@ a /*What most links will look like*/
   background-color: white;
   color: black;
 }
+.icon-bar a {background-color: #b0b0b0;}
 #active
 {
-	background-color: #b0b0b0;
+	background-color: white;
 	color: black;
-}
-/*Two styles are used based on the site color map.*/
-.style1
-{
-  background-color: #29309b;
-  color: white;
-}
-.style2
-{
-  background-color: #e5d8ae;
-  color: black;
 }

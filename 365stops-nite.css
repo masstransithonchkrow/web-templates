@@ -85,9 +85,9 @@ html
 	font-size: 2.2vw;
 	font-weight: bold;
 	text-align: left;
-	background-color:  black;
+	background-color: #19103b;
 	color: white;
-	border: 0.2vw solid #19103b;
+	border: 0.2vw solid #ce7502;
 }
 .txtPanel a
 {	text-shadow: 1px 1px #b0b0b0; }
@@ -145,7 +145,7 @@ text-align: left;
 }
 .txtFrame
 {
-	border: 2px solid #ce7502;
+	border: 2px solid #19103b;
 	font-size: 2vw;
 	background-color: black;
 	color: white;
@@ -153,7 +153,7 @@ text-align: left;
 	white-space: nowrap;
 }
 .txtFrame span { display: table; font-size: 1.2em;}
-.txtFrame a:hover {	color: #ce7502;}
+.txtFrame a:visited {color: #ce7502;}
 .dropChar 
 {
 	font-family: 'Orbitron', sans-serif;
@@ -256,19 +256,20 @@ td
   color: white;
 }
 .nav .sub-menu {
-  background-color: #ce7502;
+  background-color: #757575;
   list-style: none;
 }
 .nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color:  #19103b;
+  background-color:  black;
   color: white;
 }
 a /*What most links will look like*/
 {
 	text-decoration: none;
 	color: white;
-	border: 1 px solid #ce7502;
+	border: 1 px solid #19103b;
 }
+a:visited /*What most links will look like*/ {color: #ce7502;}
 .paragraph, p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
@@ -297,7 +298,8 @@ a /*What most links will look like*/
 .banner {font-size: 2.8vw;}
 .txtPanel
 {
-	border: 0.5vw solid #ce7502;
+	border: 0.5vw solid #19103b;
+	background-color: #ce7502;
 	font-size: 1.1em;
 }
 .txtCtrPanel
@@ -348,7 +350,7 @@ ul, ol
 	display: block;
 	background-color: #19103b;
 }
-#dmobile span {	border: 1px solid white;}
+#mobile span {	border: 1px solid white;}
 #desktop {	display: none;}
 td
 {
@@ -356,15 +358,14 @@ td
 	padding: 2px;
 }
 .returnTag {	font-family: Twitter Color Emoji;}
+/*Submenu data for Mobile*/
+.nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {
-  background-color: #19103b;
+  background-color: #757575;
   list-style: none;
 }
-.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color: #ce7502;
-  color: white;
-}
-a /*What most links will look like*/{	border: 1 px solid #19103b;}
+a /*What most links will look like*/{	border: 1 px solid #ce7502;}
+a:visited /*What most links will look like*/ {color: #19103b;}
 .paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; }
 }
 @media print
@@ -404,19 +405,9 @@ a /*What most links will look like*/{	border: 1 px solid #19103b;}
   background-color: black;
   color: #ce7502;
 }
+.icon-bar a {background-color: #757575;}
 #active
 {
 	background-color: black;
 	color: white;
-}
-/*Two styles are used based on the site color map.*/
-.style1
-{
-  background-color: #19103b;
-  color: white;
-}
-.style2
-{
-  background-color: #ce7502;
-  color: black;
 }
