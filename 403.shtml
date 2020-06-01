@@ -2,21 +2,18 @@
 <html lang="en">
 <head>
 <title>Disallowed</title>
-<link rel="stylesheet" type="text/css" href="https://365stops.org/error.css" />
+<meta charset="utf-8">
 <link rel="shortcut icon" type="image/icon" href="365stops.ico"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<style>
-html 
-{
-background-color: #b0b0b0;
-}
-</style>
+<!-- This is used to change the site's appearance based on time of day. -->
+<script src="scripts/dawnAndDusk.js"></script>
+<noscript><link href="365stops.css" rel="stylesheet"></noscript>
 </head>
 <body>
-<h1><span class="warningHeader colorY">403</span> <span class="warningHeader colorG">|</span> <span class="warningHeader colorR">No Boarding</span></h1>
-<p class="returnHeader">"Nobody's Supposed To Be Here"</p>
-<p class="returnHeader"><a href="https://365stops.org/help.html#hotlinking">Hotlinking Policy</a></p>
-<p class="returnHeader"><a href="https://365stops.org/sitemap.html" title="I'm sorry you couldn't find what you were looking for  - what...were you looking for?">What Are My Options?</a></p>
+<h1 class="splash center banner">403 | No Passengers</h1>
+<p class="titleLine center">"Nobody's Supposed To Be Here"</p>
+<p class="titleLine center"><a href="https://365stops.org/help.html#hotlinking">Hotlinking Policy</a></p>
+<p class="txtPanel center"><a href="https://365stops.org/sitemap.html" title="I'm sorry you couldn't find what you were looking for  - what...were you looking for?">What Are My Options?</a></p>
 </body>
 </html>
