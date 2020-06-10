@@ -24,7 +24,7 @@ text-rendering: optimizeLegibility;
 /*Font-Space End*/
 html 
 { 
-  background: url(img/pier6-kingscounty.gif) no-repeat center center fixed; 
+  background: url(img/van-siclen-av-el.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -136,11 +136,22 @@ text-align: left;
 	margin-right: auto;
 	width: 80%;
 }
-.eastOfNav
-{	padding-left: 16vw; }
+.wholeWide2
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
 	font-family: sans-serif;
 	position: relative;
+}
+.icon-bar a
+{
+	display: inline;
+	text-align: center;
+	font-size: 2.0vw;
+	border: 1.5px solid black;
 }
 .txtFrame
 {
@@ -314,6 +325,7 @@ a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 	font-family: 'serif';
 }
 .txtFrame {font-size: 1em;}
+.icon-bar a {font-size: 1em;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -414,21 +426,17 @@ a:visited /*What visited links will look like*/{	color: #29309b;}
 /* Sidebar Position Data For Both Desktop and Mobile */
 .icon-bar
 {
-  opacity: 0.8;
-  position: fixed;
-  top: 60%;
-  left: 1%;
-  -webkit-transform: translateY(-60%);
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
 }
 .icon-bar a
 {
-	display: block;
+	display: inline;
 	text-align: center;
 	margin-left: 0.5vw;
-	font-size: 2.5vw;
-	padding: 0.4em 0 0.4em 0;
+	font-size: 2.0vw;
 	border: 1.5px solid black;
 }
 .icon-bar a:hover 
