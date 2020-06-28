@@ -22,7 +22,7 @@ text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
-html 
+html, rss
 { 
   background: url(img/van-siclen-av-el.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -38,7 +38,7 @@ html
 	text-align: center;
 	font-weight: bold;
 }
-.splash, .splash h1, .splash a
+.splash, .splash h1, .splash a, banner
 {
 	font-family: 'Orbitron', sans-serif;
 	background: linear-gradient(to right, #b0b0b0, #29309b);
@@ -66,14 +66,23 @@ html
 	background-color: #b0b0b0;
 	font-size: 2.2vw;
 }
-.emphasis
+item
+{
+	float: left;
+	width: 70%;
+	border: 2px solid white;
+	background-color: #b0b0b0;
+	font-size: 2.2vw;
+}
+generator, guid , description{display: none;}
+.emphasis, link
 {
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	background-color:  #29309b;
 	color: white;
-	border: 3px solid black;
+	border: 0.2vw solid black;
 	text-shadow: 1px 1px #b0b0b0;
 }
 .banner
@@ -83,7 +92,7 @@ html
 }
 .txtPanel
 {
-	font-size: 2.2vw;
+	font-size: 2vw;
 	opacity: 0.9;
 	font-weight: bold;
 	text-align: left;
@@ -140,7 +149,7 @@ text-align: left;
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 80%;
 }
 .menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
 	font-family: sans-serif;
@@ -190,7 +199,7 @@ ul, ol
 	color: white;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
-.blurbOut
+.blurbOut, pubDate
 {
 	border-radius: 20px 30px 30px 0px;
 	background-color: #29309b;
@@ -199,7 +208,7 @@ ul, ol
 	float: left;
 	text-shadow: 1px 1px #b0b0b0;
 }
-.blurbIn
+.blurbIn, title
 {
 border-radius: 20px 30px 0px 16px;
 	background-color: #e5d8ae;
@@ -284,7 +293,7 @@ a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 .paragraph, p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 2.5vw; 
+	font-size: 2vw; 
 	color: black;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
@@ -295,7 +304,7 @@ a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 .splash, .splash h1, .splash a
 {	
 	font-family: 'Orbitron', serif;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	background: linear-gradient(to right, #b0b0b0, #e5d8ae);
 	color: #29309b;
 	}
@@ -325,7 +334,7 @@ a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 	font-family: 'serif';
 }
 .txtFrame {font-size: 1em;}
-.icon-bar a {font-size: 1em;}
+.icon-bar a {font-size: 1.3em;}
 .dropChar 
 {
 	font-family: 'Orbitron', serif;
@@ -436,7 +445,6 @@ a:visited /*What visited links will look like*/{	color: #29309b;}
 	display: inline;
 	text-align: center;
 	margin-left: 0.5vw;
-	font-size: 2.0vw;
 	border: 1.5px solid black;
 }
 .icon-bar a:hover 
