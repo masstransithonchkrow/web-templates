@@ -6,7 +6,7 @@ Colors Used For This CSS File
 https://botsin.space/@accessibleColors/103833621005988313
 #ce7502 (206 117 2) or Meteor
 #19103b (25 16 59) or Haiti
-#757575 (117 117 117) or Dark Gray
+#757575 (117 117 117) or Dark_Gray
 ###########################################*/
 *{user-select: none; font-family: Orbitron, sans-serif;}
 @font-face
@@ -24,7 +24,8 @@ text-rendering: optimizeLegibility;
 /*Font-Space End*/
 html, rss
 { 
-  background: url(img/nereid-full-moon.png) no-repeat center center fixed; 
+/*Image by Robert Horvik*/
+  background: url(myFilePhotos/robert-horvick-1R4uPYipCFM-unsplash.jpg) repeat-x; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -96,7 +97,7 @@ generator, guid , description{display: none;}
 	text-align: left;
 	background-color: #757575;
 	color: white;
-	opacity: 0.8;
+	opacity: 0.92;
 	border: 0.2vw solid black;
 }
 .txtPanel a
@@ -123,11 +124,6 @@ generator, guid , description{display: none;}
 float: right;
 width: 45%;
 }
-#typeSide
-{ 	
-float: left;
-text-align: left;
-}
 #leftside
 {
 	float: left;
@@ -147,13 +143,8 @@ text-align: left;
 	margin-right: auto;
 	width: 80%;
 }
-.wholeWide2
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item 
 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-}
-.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
 	font-family: sans-serif;
 	position: relative;
 }
@@ -271,11 +262,9 @@ td
 	font-size: 1.1em;
 }
 .leftHeading{	display: none;}
-.returnTag {	font-family: Twitter Color Emoji;}
+.returnTag, title {	font-family: Orbitron, Twitter Color Emoji;}
 /*Submenu data for Desktop*/
-.nav .menu > .menu-item, .nav .menu > .menu-item > a {
-  color: white;
-}
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white; }
 .nav .sub-menu {
   background-color: #757575;
   list-style: none;
