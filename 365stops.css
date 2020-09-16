@@ -12,20 +12,20 @@ https://botsin.space/@accessibleColors/103808139873655431
 @font-face
 {
 font-family: 'Xolonium';
-src: url('fonts/Xolonium-Regular.otf');
+src: url('Xolonium-Regular.otf');
 text-rendering: optimizeLegibility;
 }
 @font-face
 {
 	font-family: 'Twitter Color Emoji';
-	src: url('fonts/ColorEmoji10.ttf');
+	src: url('ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
 html, rss
 { 
 /*Image by Robert Horvik*/
-  background: url(myFilePhotos/robert-horvick-1R4uPYipCFM-unsplash-2.jpg) repeat; 
+  background: url(robert-horvick-1R4uPYipCFM-unsplash-2.jpg) repeat; 
   -webkit-background-size: auto;
   -moz-background-size: auto;
   background-size: auto;
@@ -155,7 +155,7 @@ width: 45%;
 .dropChar 
 {
 	font-family: 'Xolonium', sans-serif;
-    font-size: 1.2em;
+    font-size: 2vw;
 	display: inline-block; 
 	width: 3vw; 
 	height: 3vw; 
@@ -303,7 +303,7 @@ a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 .dropChar 
 {
 	font-family: 'Xolonium', serif;
-    font-size: 1.3em;
+    font-size: 1em;
 	width: 1.3em; 
 	height: 1.3em;
 	color: black;
