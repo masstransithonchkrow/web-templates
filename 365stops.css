@@ -8,12 +8,12 @@ https://botsin.space/@accessibleColors/103808139873655431
 #29309b (41 48 155) or Torea Bay
 #b0b0b0 or (176 176 176) or Light_Gray
 ###########################################*/
-*{user-select: none; font-family: 'Xolonium', sans-serif;}
+*{user-select: none; font-family: 'Xolonium', sans-serif; font-size: 2vw;}
 @font-face
 {
-font-family: 'Xolonium';
-src: url('Xolonium-Regular.otf');
-text-rendering: optimizeLegibility;
+	font-family: 'Xolonium';
+	src: url('Xolonium-Regular.otf');
+	text-rendering: optimizeLegibility;
 }
 @font-face
 {
@@ -26,28 +26,21 @@ html, rss
 { 
 /*Image by Robert Horvik*/
   background: url(robert-horvick-1R4uPYipCFM-unsplash-2.jpg) repeat; 
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
   background-size: auto;
 }
 .titleLine
 {
-	font-family: 'Xolonium', sans-serif;
 	background-color: #b0b0b0;
 	color: black;
-	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
 .splash, .splash h1, .splash a, banner
 {
-	font-family: 'Xolonium', sans-serif;
 	background: linear-gradient(to right, #b0b0b0, #29309b);
-	background-size: 100%;
 	padding-bottom: 10px;
 	text-shadow: 1px 1px #b0b0b0;
 	color: #e5d8ae;
-	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -58,6 +51,7 @@ html, rss
 	width: 85%;
 	background-color: #e5d8ae;
 	color: black;
+	display: block;
 }
 .chatWindow
 {
@@ -88,34 +82,23 @@ generator, guid , description, pubDate {display: none;}
 }
 .banner
 {
-	font-size: 2vw;
+	font-size: 2.2vw;
 	width: 100%;
 }
 .txtPanel
 {
-	font-size: 2vw;
 	opacity: 0.92;
 	font-weight: bold;
-	text-align: left;
 	background-color:  #b0b0b0;
 	color: black;
 	border: 0.2vw solid #29309b;
+	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
 }
-.txtPanel span,a {	text-shadow: 1px 1px #757575;}
+.txtPanel a {color: #29309b;}
 .inline span
 {
 	color: black;
-	font-family: 'sans-serif';
-}
-#rightside
-{ 	
-float: right;
-width: 45%;
-}
-#leftside
-{
-	float: left;
-	width: 40%;
+	font-family: sans-serif;
 }
 #mobile  {display: none;}
 #desktop
@@ -138,20 +121,9 @@ width: 45%;
 {
 	display: inline;
 	text-align: center;
-	font-size: 2.0vw;
-	border: 1.5px solid black;
-}
-.txtFrame
-{
-	border: 1px solid #e5d8ae;
-	font-size: 2vw;
 	background-color: #b0b0b0;
-	margin: 5px;
-	white-space: nowrap;
+	border: 1px solid black;
 }
-.txtFrame, .txtPanel span { display: table; font-size: 1.2em;}
-.txtFrame, .txtPanel a {color: #29309b;}
-.txtFrame, .txtPanel a:hover {	color: #e5d8ae;}
 .dropChar 
 {
 	font-family: 'Xolonium', sans-serif;
@@ -219,12 +191,6 @@ border-radius: 20px 30px 0px 16px;
 	 opacity: 0.9;
 	 width: 100%;
 }
-#picWidget img
-{
-	 box-sizing: border-box;
-	 opacity: 0.9;
-	 width: 100%;
-}
 .row {  display: flex;}
 /* Create three equal columns that sits next to each other */
 .column {
@@ -248,7 +214,7 @@ td
 	padding: 5px;
 	font-size: 1.1em;
 }
-.leftHeading{	display: none;}
+.leftHeading{ display: none;}
 .returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
@@ -264,42 +230,48 @@ a /*What most links will look like*/
 {
 	text-decoration: none;
 	color: #29309b;
-	border: 1 px solid #e5d8ae;
 }
 a:visited /*What visited links will look like*/{	color: #e5d8ae;}
 .paragraph, p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 2vw; 
+	color: black;
+}
+/* Sidebar Position Data For Both Desktop and Mobile */
+.icon-bar
+{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.icon-bar a:hover, .txtPanel a:hover 
+{
+  background-color: white;
+  color: black;
+}
+#active
+{
+	background-color: white;
 	color: black;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width: 1024px)  
 {
-	*{font-family: 'Xolonium', serif;}
-.titleLine {font-family: 'Xolonium', serif; font-size: 1em;}
+*{font-family: 'Xolonium', serif; font-size: 1em;}
 .splash, .splash h1, .splash a
 {	
-	font-family: 'Xolonium', serif;
-	font-size: 1.3em;
 	background: linear-gradient(to right, #b0b0b0, #e5d8ae);
 	color: #29309b;
-	}
-.storyBorder, .txtCtrPanel { background-color: #29309b; color: white;}
-.chatWindow {font-size: 1.4em;}
-.banner {font-size: 2.8vw;}
-.txtPanel
-{
-	border: 0.3vw solid #e5d8ae;
-	font-size: 1.1em;
 }
+.storyBorder, .txtCtrPanel { background-color: #29309b; color: white;} /*mobile rendering*/
+.chatWindow {font-size: 1.2em;}
+.txtPanel { border: 0.3vw solid #e5d8ae; }
 .inline span
 {
 	color: black;
-	font-family: 'serif';
+	font-family: serif;
 }
-.txtFrame {font-size: 1em;}
-.icon-bar a {font-size: 1.3em;}
 .dropChar 
 {
 	font-family: 'Xolonium', serif;
@@ -315,11 +287,7 @@ ul, ol
 	background-color: #e5d8ae;
 	color: black;
 }
-.menu .menu-item.has-children
-{
-	font-size: 1.2em;
-	font-family: serif;
-}
+.menu .menu-item.has-children { 	font-family: serif; }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut
 {
@@ -360,12 +328,11 @@ td
 }
 a /*What most links will look like*/
 {
-	color: #e5d8ae;
-	border: 1 px solid #29309b;
+	color: #29309b;
 }
 /*What visited links will look like*/
-a:visited {color: #29309b;}
-.paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; color: white;}
+a:visited {color: #e5d8ae;}
+.paragraph, p /*Paragraph formatting*/{font-family: serif; color: white;}
 }
 @media print
 {
@@ -376,30 +343,4 @@ a:visited {color: #29309b;}
 		border: 1px solid black;
 		color: black;
 	}
-}
-/* Sidebar Position Data For Both Desktop and Mobile */
-.icon-bar
-{
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  z-index: 3;
-}
-.icon-bar a
-{
-	display: inline;
-	text-align: center;
-	margin-left: 0.5vw;
-	border: 1.5px solid black;
-}
-.icon-bar, .txtPanel a:hover 
-{
-  background-color: white;
-  color: black;
-}
-.icon-bar a {background-color: #b0b0b0;}
-#active
-{
-	background-color: white;
-	color: black;
 }

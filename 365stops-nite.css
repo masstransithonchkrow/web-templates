@@ -8,12 +8,12 @@ https://botsin.space/@accessibleColors/103833621005988313
 #19103b (25 16 59) or Haiti
 #757575 (117 117 117) or Dark_Gray
 ###########################################*/
-*{user-select: none; font-family: 'Xolonium', sans-serif;}
+*{user-select: none; font-family: 'Xolonium', sans-serif; font-size: 2vw;}
 @font-face
 {
-font-family: 'Xolonium';
-src: url('Xolonium-Regular.otf');
-text-rendering: optimizeLegibility;
+	font-family: 'Xolonium';
+	src: url('Xolonium-Regular.otf');
+	text-rendering: optimizeLegibility;
 }
 @font-face
 {
@@ -21,32 +21,27 @@ text-rendering: optimizeLegibility;
 	src: url('ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
-/*Font-Space End*/
 html, rss
+/*Font-Space End*/
 { 
 /*Image by Robert Horvik*/
   background: url(robert-horvick-1R4uPYipCFM-unsplash.jpg) repeat; 
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
   background-size: auto;
 }
 .titleLine
 {
 	background-color: black;
 	color: white;
-	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
 .splash, .splash h1, banner
 {
-	font-family: 'Xolonium', sans-serif;
 	background: linear-gradient(to right, #19103b, #757575);
 	background-size: 100%;
 	padding-bottom: 10px;
 	text-shadow: 1px 1px #757575;
 	color: #ce7502;
-	font-size: 2.4vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -57,6 +52,7 @@ html, rss
 	width: 85%;
 	background-color: #ce7502;
 	color: black;
+	display: block;
 }
 .chatWindow
 {
@@ -64,7 +60,7 @@ html, rss
 	width: 50%;
 	border: 2px solid white;
 	background-color: #757575;
-	font-size: 2.5vw;
+	font-size: 2.2vw;
 }
 item
 {
@@ -72,7 +68,7 @@ item
 	width: 70%;
 	border: 2px solid white;
 	background-color: #19103b;
-	font-size: 2.5vw;
+	font-size: 2.2vw;
 }
 generator, guid , description, pubDate {display: none;}
 .emphasis, link
@@ -87,35 +83,23 @@ generator, guid , description, pubDate {display: none;}
 }
 .banner
 {
-	font-size: 2vw;
+	font-size: 2.2vw;
 	width: 100%;
 }
 .txtPanel
 {
-	font-size: 2vw;
 	font-weight: bold;
-	text-align: left;
 	background-color: #757575;
 	color: white;
 	opacity: 0.92;
 	border: 0.2vw solid #19103b;
+	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
 }
-.txtPanel a
-{	text-shadow: 1px 1px #b0b0b0; }
+.txtPanel a {text-shadow: 1px 1px #b0b0b0; }
 .inline span
 {
 	color: black;
-	font-family: 'sans-serif';
-}
-#rightside
-{ 	
-float: right;
-width: 45%;
-}
-#leftside
-{
-	float: left;
-	width: 40%;
+	font-family: sans-serif;
 }
 #mobile{display: none;}
 #desktop
@@ -140,21 +124,9 @@ width: 45%;
 {
 	display: inline;
 	text-align: center;
-	font-size: 2.0vw;
-	border: 1.5px solid black;
+	background-color: #757575;
+	border: 1px solid white;
 }
-.txtFrame
-{
-	border: 2px solid #19103b;
-	font-size: 2vw;
-	background-color: black;
-	color: white;
-	margin: 5px;
-	white-space: nowrap;
-}
-.txtFrame, .txtPanel span { display: table; font-size: 1.2em;}
-.txtFrame, .txtPanel a {color: white;}
-.txtFrame, .txtPanel a:visited {color: #ce7502;}
 .dropChar 
 {
 	font-family: 'Xolonium', sans-serif;
@@ -216,12 +188,6 @@ border-radius: 20px 30px 0px 16px;
 	color: #ce7502;
 	font-style: italic;
 }
-#picWidget img
-{
-	 box-sizing: border-box;
-	 opacity: 0.9;
-	 width: 100%;
-}
 .picWidget img
 {
 	 box-sizing: border-box;
@@ -244,14 +210,14 @@ border-radius: 20px 30px 0px 16px;
 td
 {
 	word-wrap: normal;
-	border-color: black;
 	border-style: solid;
+	border-color: black;
 	border-width: 1px;
 	color: black;
 	padding: 5px;
 	font-size: 1.1em;
 }
-.leftHeading{	display: none;}
+.leftHeading{display: none;}
 .returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white; }
@@ -267,41 +233,47 @@ a /*What most links will look like*/
 {
 	text-decoration: none;
 	color: white;
-	border: 1 px solid #19103b;
 }
 a:visited /*What most links will look like*/ {color: #ce7502;}
 .paragraph, p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	font-size: 2vw;
+}
+/* Sidebar Position Data For Both Desktop and Mobile */
+.icon-bar
+{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.icon-bar a:hover, .txtPanel a:hover 
+{
+  background-color: black;
+  color: #ce7502;
+}
+#active
+{
+	background-color: black;
+	color: white;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
 @media screen and (max-width:1024px)  
 {
-	*{font-family: 'Xolonium', serif;}
-	.titleLine {font-family: 'Xolonium', serif; font-size: 1em;}
+*{font-family: 'Xolonium', serif; font-size: 1em;}
 .splash, .splash h1
 { 
 	background: linear-gradient(to right, #757575, #ce7502); 
-	font-family: 'Xolonium', serif;
 	color: #19103b;
-	font-size: 1.2em;
 }
-.storyBorder, .txtCtrPanel {background-color: #19103b; color: white;}
-.chatWindow {font-size: 1.4em;}
-.banner {font-size: 2.8vw;}
-.txtPanel
-{	
-border: 0.3vw solid #ce7502;
-font-size: 1.1em;
-}
+.storyBorder, .txtCtrPanel {background-color: #19103b; color: white;}/*mobile rendering*/
+.chatWindow {font-size: 1.2em;}
+.txtPanel {	 border: 0.3vw solid #ce7502; }
 .inline span
 {
 	color: white;
-	font-family: 'serif';
+	font-family: serif;
 }
-.txtFrame {font-size: 1em; border: 2px solid #19103b;}
-.icon-bar a {font-size: 1.3em;}
 .dropChar 
 {
 	font-family: 'Xolonium', serif;
@@ -316,11 +288,7 @@ ul, ol
 	background-color: #ce7502;
 	color: black;
 }
-.menu .menu-item.has-children
-{
-	font-size: 1.2em;
-	font-family: serif;
-}
+.menu .menu-item.has-children {font-family: serif; }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut
 {
@@ -353,9 +321,8 @@ td
   background-color: #757575;
   list-style: none;
 }
-a /*What most links will look like*/{	border: 1 px solid #ce7502;}
 a:visited /*What most links will look like*/ {color: #19103b;}
-.paragraph, p /*Paragraph formatting*/{font-family: serif; font-size: 1em; }
+.paragraph, p /*Paragraph formatting*/{font-family: serif;}
 }
 @media print
 {
@@ -368,23 +335,4 @@ a:visited /*What most links will look like*/ {color: #19103b;}
 		border: 1px solid black;
 		color: black;
 	}
-}
-/* Sidebar Position Data For Both Desktop and Mobile */
-.icon-bar
-{
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  z-index: 3;
-}
-.icon-bar, .txtPanel a:hover 
-{
-  background-color: black;
-  color: #ce7502;
-}
-.icon-bar a {background-color: #757575;}
-#active
-{
-	background-color: black;
-	color: white;
 }
