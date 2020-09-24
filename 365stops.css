@@ -138,12 +138,11 @@ generator, guid , description, pubDate {display: none;}
 	text-align: center;
 	text-shadow: 1px 1px #b0b0b0;
 	}
-iframe,img.center
+img.center
 {
+	object-fit: fill;
+	height: auto;
 	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 ul, ol
 {
