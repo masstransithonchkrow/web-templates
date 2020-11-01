@@ -2,11 +2,11 @@
 /*Normal -Font*/
 /*Xolonium is an OpenType Font by Severin Meyer*/
 /*##########################################
-Colors Used For This Site
-https://botsin.space/@accessibleColors/103808139873655431
-#e5d8ae (229 216 174) or Hampton
-#29309b (41 48 155) or Torea Bay
-#b0b0b0 or (176 176 176) or Light_Gray
+Colors Used For This CSS File
+https://botsin.space/@randomColorContrasts/105007369928233517
+#f57f0c (245, 127, 12) or Gold Drop
+#570427 (92, 24, 165) or Castrohex 
+#757575 (117 117 117) or Dark_Gray
 ###########################################*/
 *{user-select: none; font-family: 'Xolonium', sans-serif; font-size: 2vw;}
 @font-face
@@ -21,25 +21,26 @@ https://botsin.space/@accessibleColors/103808139873655431
 	src: url('ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
-/*Font-Space End*/
 html, rss
+/*Font-Space End*/
 { 
-  background: radial-gradient(at top left, #e5d8ae, #29309b); 
-  background-size: tile;
+  background: radial-gradient(at top left, #f57f0c, #570427);  
+  background-size: auto;
 }
 .titleLine
 {
-	background-color: rgba(176, 176, 176, 1);
-	color: black;
+	background-color: black;
+	color: white;
 	text-align: center;
 	font-weight: bold;
 }
-.splash, .splash h1, .splash a, banner
+.splash, .splash h1, banner
 {
-	background: linear-gradient(to right, rgba(176, 176, 176, 1), #29309b);
+	background: linear-gradient(to right, #570427, #757575);
+	background-size: 100%;
 	padding-bottom: 10px;
-	text-shadow: 1px 1px rgba(176, 176, 176, 1);
-	color: rgba(229, 216, 174, 1);
+	text-shadow: 1px 1px #757575;
+	color: #f57f0c;
 	text-align: center;
 	font-weight: bold;
 }
@@ -48,7 +49,7 @@ html, rss
 	margin-left: auto;
 	margin-right: auto;
 	width: 85%;
-	background-color: rgba(229, 216, 174, 1);
+	background-color: #f57f0c;
 	color: black;
 	display: block;
 }
@@ -57,7 +58,7 @@ html, rss
 	float: left;
 	width: 50%;
 	border: 2px solid white;
-	background-color: rgba(176, 176, 176, 1);
+	background-color: #757575;
 	font-size: 2.2vw;
 }
 item
@@ -65,7 +66,7 @@ item
 	float: left;
 	width: 70%;
 	border: 2px solid white;
-	background-color: #29309b;
+	background-color: #570427;
 	font-size: 2.2vw;
 }
 generator, guid , description, pubDate {display: none;}
@@ -74,9 +75,9 @@ generator, guid , description, pubDate {display: none;}
 	font-family: 'Xolonium', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	background-color:  rgba(176, 176, 176, 1);
+	background-color:  #757575;
 	color: white;
-	border: 0.2vw solid black;
+	border: 0.2vw solid white;
 	text-shadow: 0.1vw 0.1vw black;
 }
 .banner
@@ -86,33 +87,35 @@ generator, guid , description, pubDate {display: none;}
 }
 .txtPanel
 {
-	opacity: 0.92;
 	font-weight: bold;
-	background-color:  rgba(176, 176, 176, 1);
-	color: black;
-	border: 0.2vw solid #29309b;
+	background-color: #757575;
+	color: white;
+	opacity: 0.92;
+	border: 0.2vw solid #570427;
 	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
 }
-.txtPanel a {color: #29309b;}
+.txtPanel a {text-shadow: 1px 1px #b0b0b0; }
 .inline span
 {
 	color: black;
 	font-family: sans-serif;
 }
-#mobile  {display: none;}
+#mobile{display: none;}
 #desktop
 {
 	display: block;
-	background-color: rgba(229, 216, 174, 1);
+	background-color: #f57f0c;
 }
-#desktop span {border: 1px solid black;}
+#desktop span
+{	border: 1px solid black;}
 .wholeWide
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 }
-.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item 
+{
 	font-family: sans-serif;
 	position: relative;
 }
@@ -120,8 +123,8 @@ generator, guid , description, pubDate {display: none;}
 {
 	display: inline;
 	text-align: center;
-	background-color: rgba(176, 176, 176, 1);
-	border: 1px solid black;
+	background-color: #757575;
+	border: 1px solid white;
 }
 .dropChar 
 {
@@ -129,13 +132,13 @@ generator, guid , description, pubDate {display: none;}
     font-size: 2vw;
 	display: inline-block; 
 	width: 3vw; 
-	height: 3vw; 
+	height: 3vw;
 	padding: 0.2vw 0 0 0.2vw; 
 	color: white;
-	background-color: #29309b;
+	background-color: #570427;
 	border: 0.2vw solid white;
 	text-align: center;
-	text-shadow: 1px 1px rgba(176, 176, 176, 1);
+	text-shadow: 1px 1px #757575;
 	}
 img.center
 {
@@ -145,31 +148,31 @@ img.center
 }
 ul, ol
 {
-	background-color: #29309b;
+	background-color: #570427;
 	color: white;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut, pubDate
 {
 	border-radius: 20px 30px 30px 0px;
-	background-color: #29309b;
-	color: rgba(229, 216, 174, 1);
+	background-color: #570427;
+	color: #f57f0c;
 	border: 3px solid white;
 	float: left;
-	text-shadow: 1px 1px rgba(176, 176, 176, 1);
+	text-shadow: 1px 1px #757575;
 }
 .blurbIn, title
 {
 border-radius: 20px 30px 0px 16px;
-	background-color: rgba(229, 216, 174, 1);
-	color: #29309b;
-	border: 3px solid black;
+	background-color: #f57f0c;
+	color: #570427;
+	border: 3px solid white;
 	float: right;
 }
 .topic
 {
-	background-color: rgba(176, 176, 176, 1);
-	color: rgba(229, 216, 174, 1);
+	background-color: black;
+	color: #f57f0c;
 	font-size: 1.3em;
 	display: table;
 }
@@ -180,7 +183,7 @@ border-radius: 20px 30px 0px 16px;
 }
 .current
 {
-	color: rgba(229, 216, 174, 1);
+	color: #f57f0c;
 	font-style: italic;
 }
 .picWidget img
@@ -205,35 +208,34 @@ border-radius: 20px 30px 0px 16px;
 td
 {
 	word-wrap: normal;
-	border-color: black;
 	border-style: solid;
+	border-color: black;
 	border-width: 1px;
 	color: black;
 	padding: 5px;
 	font-size: 1.1em;
 }
-.leftHeading{ display: none;}
+.leftHeading{display: none;}
 .returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
 /*Submenu data for Desktop*/
-.nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white; }
 .nav .sub-menu {
-  background-color: rgba(176, 176, 176, 1);
+  background-color: #757575;
   list-style: none;
 }
 .nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color:  white;
-  color: black;
+  background-color:  black;
+  color: white;
 }
 a /*What most links will look like*/
 {
 	text-decoration: none;
-	color: #29309b;
+	color: white;
 }
-a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
-.paragraph, p /*Paragraph formatting*/
+a:visited /*What most links will look like*/ {color: #f57f0c;}
+.paragraph, p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
-	color: black;
 }
 /* Sidebar Position Data For Both Desktop and Mobile */
 .icon-bar
@@ -245,29 +247,29 @@ a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
 }
 .icon-bar a:hover, .txtPanel a:hover 
 {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: #f57f0c;
 }
 #active
 {
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 }
 /*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
-@media screen and (max-width: 1024px)  
+@media screen and (max-width:1024px)  
 {
 *{font-family: 'Xolonium', serif; font-size: 1em;}
-.splash, .splash h1, .splash a
-{	
-	background: linear-gradient(to right, rgba(176, 176, 176, 1), rgba(229, 216, 174, 1));
-	color: #29309b;
+.splash, .splash h1
+{ 
+	background: linear-gradient(to right, #757575, #f57f0c); 
+	color: #570427;
 }
-.storyBorder, .txtCtrPanel { background-color: #29309b; color: white;} /*mobile rendering*/
+.storyBorder, .txtCtrPanel {background-color: #570427; color: white;}/*mobile rendering*/
 .chatWindow {font-size: 1.2em;}
-.txtPanel { border: 0.3vw solid rgba(229, 216, 174, 1); }
+.txtPanel {	 border: 0.3vw solid #f57f0c; }
 .inline span
 {
-	color: black;
+	color: white;
 	font-family: serif;
 }
 .dropChar 
@@ -277,37 +279,34 @@ a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
 	width: 1.3em; 
 	height: 1.3em;
 	color: black;
-	background-color: rgba(229, 216, 174, 1);
-	border: 0.2vw solid black;
+	background-color: #f57f0c;
 	}
 ul, ol
 {
-	background-color: rgba(229, 216, 174, 1);
+	background-color: #f57f0c;
 	color: black;
 }
-.menu .menu-item.has-children { 	font-family: serif; }
+.menu .menu-item.has-children {font-family: serif; }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut
 {
-	background-color: rgba(229, 216, 174, 1);
-	color: #29309b;
-	border: 3px solid black;
+	background-color: #f57f0c;
+	color: #570427;
 }
 .blurbIn
 {
-	background-color: #29309b;
-	color: rgba(229, 216, 174, 1);
-	border: 3px solid white;
+	background-color: #570427;
+	color: #f57f0c;
 }
-.topic{color: #29309b;}
-.current{color: #29309b;}
+.topic {color: #570427;}
+.current {color: white; }
 #mobile
 {
 	display: block;
-	background-color: #29309b;
+	background-color: #570427;
 }
 #mobile span {	border: 1px solid white;}
-#desktop {display: none;}
+#desktop {	display: none;}
 td
 {
 	color: white;
@@ -317,25 +316,18 @@ td
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {
-  background-color: rgba(176, 176, 176, 1);
+  background-color: #757575;
   list-style: none;
 }
-.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-  background-color: white;
-  color: black;
-}
-a /*What most links will look like*/
-{
-	color: #29309b;
-}
-/*What visited links will look like*/
-a:visited {color: rgba(229, 216, 174, 1);}
-.paragraph, p /*Paragraph formatting*/{font-family: serif; color: white;}
+a:visited /*What most links will look like*/ {color: #570427;}
+.paragraph, p /*Paragraph formatting*/{font-family: serif;}
 }
 @media print
 {
-	.storyBorder {	width: 98%;	}
-	.no-print, .no-print *	{	display: none !important;	}
+	.storyBorder
+	{	width: 98%;}
+	.no-print, .no-print *
+	{	display: none !important;	}
 	.dropChar
 	{
 		border: 1px solid black;
