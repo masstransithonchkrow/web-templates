@@ -30,6 +30,83 @@ lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
 lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
 lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
 lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+<!-- We cannot have repeat numbers, so we must create a condition that resets the program if they do. -->
+if (lotteryNumbers[0] == lotteryNumbers[1])
+{
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[0] == lotteryNumbers[2])
+{
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[0] == lotteryNumbers[3])
+{
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[0] == lotteryNumbers[4])
+{
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[0] == lotteryNumbers[5])
+{
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[5] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[1] == lotteryNumbers[2])
+{
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[1] == lotteryNumbers[3])
+{
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[1] == lotteryNumbers[4])
+{
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[1] == lotteryNumbers[5])
+{
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[5] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[2] == lotteryNumbers[3])
+{
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[2] == lotteryNumbers[4])
+{
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[2] == lotteryNumbers[5])
+{
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[5] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[3] == lotteryNumbers[4])
+{
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[3] == lotteryNumbers[5])
+{
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[5] = Math.floor((Math.random() * 60) + 1);
+}
+else if  (lotteryNumbers[4] == lotteryNumbers[5])
+{
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[5] = Math.floor((Math.random() * 60) + 1);
+}
+else
 <!-- We need the numbers to appear in order from least to greatest, so this comes in handy. -->
 lotteryNumbers.sort(sortNumber);
 <!-- The cash ball can only be between one and four -->
