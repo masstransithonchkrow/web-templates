@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+<title>365stops.ORG | Cash4Life Random Number Generator</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="assets/365stops.ico"/>
+<link rel="canonical" href="https://365stops.org/campaign/c4l-random-nums.html" />
+<link rel="stylesheet" href="assets/365stops.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="og:title" content="Cash4Life Random Number Generator" />
+<meta name="og:description" content="A Cash4Life number generator based on the visual C sharp project I completed some time ago." />
+<meta name="og:type" content="utility" />
+<script type="text/javascript">
+/*This example originally showed up in 
+Introduction to JavaScript Programming with XML and PHP 1st edition
+Specifically chapters 6 and 9
+ISBN 9780133068306*/
+function sortNumber(x,y)
+{
+return x - y;
+}
+function generateNums()
+{
+<!-- This ensures the array stays the same size -->
+const SIZE = 5;
+<!-- This creates an array using the above const as a size - this will make it easier to adjust later -->
+var lotteryNumbers = new Array(SIZE);
+<!-- The first five numbers in this array generate random numbers from 1 to 60 -->
+lotteryNumbers[0] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[1] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[2] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[3] = Math.floor((Math.random() * 60) + 1);
+lotteryNumbers[4] = Math.floor((Math.random() * 60) + 1);
+<!-- We need the numbers to appear in order from least to greatest, so this comes in handy. -->
+lotteryNumbers.sort(sortNumber);
+<!-- The cash ball can only be between one and four -->
+var cashBall = Math.floor((Math.random() * 4) + 1);
+<!-- Now we need to place the output in the respective slots on the HTML page -->
+document.getElementById("c4l01").innerHTML = lotteryNumbers[0];
+document.getElementById("c4l02").innerHTML = lotteryNumbers[1];
+document.getElementById("c4l03").innerHTML = lotteryNumbers[2];
+document.getElementById("c4l04").innerHTML = lotteryNumbers[3];
+document.getElementById("c4l05").innerHTML = lotteryNumbers[4];
+document.getElementById("c4lcb").innerHTML = cashBall;
+}
+<!-- Allow clearing of fields so user does not have to reload the page. -->
+function clearFields()
+{
+document.getElementById("c4l01").innerHTML = " ";
+document.getElementById("c4l02").innerHTML = " ";
+document.getElementById("c4l03").innerHTML = " ";
+document.getElementById("c4l04").innerHTML = " ";
+document.getElementById("c4l05").innerHTML = " ";
+document.getElementById("c4lcb").innerHTML = " ";
+}
+</script>
+<!-- Without JavaScript, this program can't work, so don't disable it -->
+<noscript><meta http-equiv="refresh" content="0;url=../500.shtml"></noscript>
+</head>
+<body>
+<h1 class="splash">Randomly Generate the numbers for a Cash4Life Ticket</h1>
+<nav class="icon-bar center">
+  <a href="../hobbies.html" class="txtPanel" title="Projects" >Projects</a><br />
+  <a href="no-google.html" class="txtPanel"  title="how I limited my reliance on G*****">#DeleteG*****</a>
+  <a href="../dtp/deskthemepacks.html" class="txtPanel" title="customizations for Windows 8 and later">DeskThemePacks</a>
+  <a href="https://github.com/masstransithonchkrow/debthemepack" class="txtPanel" title="my attempt to emulate deskthemepacks on Debian Linux">#DebThemePack</a>
+  <a href="podcasts.html"class="txtPanel" title="a collection of audio remarks by me">Podcasts</a>
+<a href="base-calculator.html" class="txtPanel" title="a base calculator for MAT 145, based on a modified CIS 236 project">Base Calculator</a>
+<a href="your-ip.shtml"class="txtPanel" title="how this website sees you">About Your Connection</a>
+<a href="fsj-view.php"class="txtPanel" title="an exhaustive record of what I ate for nearly a decade">Foodservice Journal</a>
+<a href="bmi-calculator.html" class="txtPanel" title="A BMI calculator from a CIS 236 assignment.">BMI Calculator</a>
+<a id="active" class="txtPanel" title="you're already viewing this page">C4L Random Nums</a>
+</nav>
+<br />
+<div id="content" class="storyBorder">  
+<span class="paragraph banner center">
+<span id="c4l01" class="txtPanel">-</span>&nbsp;<span id="c4l02" class="txtPanel">-</span>&nbsp;<span id="c4l03" class="txtPanel">-</span>&nbsp;<span id="c4l04" class="txtPanel">-</span>&nbsp;<span id="c4l05" class="txtPanel">-</span> |&nbsp;| <span id="c4lcb" class="txtPanel">--</span><br /><br />
+<input class="emphasis" type="button" value="Generate" onclick="generateNums()" />&nbsp; <input class="emphasis" type="button" value="Clear" onclick="clearFields()" />
+</span>
+</div>
+</body>
+</html>
