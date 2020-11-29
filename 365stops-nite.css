@@ -24,8 +24,9 @@ https://botsin.space/@accessibleColors/103833621005988313
 html, rss
 /*Font-Space End*/
 { 
-  background: radial-gradient(at top left, #ce7502, #19103b); 
-  background-size: auto;
+  /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
+  background: url("brick-wall-pluspng-159660-nega.png"), radial-gradient(at top left, rgba(206,117,2,1),rgba(25,16,59,0.5)); 
+  background-size: 100%;
 }
 .titleLine
 {
