@@ -1,0 +1,5 @@
+<!--the intent of this snippet is to prevent user right clicks on my pages. If you're getting 500s, this is why and no, I will not remove it. --> 
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=../500.shtml"></noscript>
