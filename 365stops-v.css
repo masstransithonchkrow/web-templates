@@ -1,0 +1,346 @@
+/*Font-Space Start*/
+/*Normal -Font*/
+/*Lobster is an OpenType font by Pablo Impallari*/
+/*##########################################
+Colors Used For This Site
+https://botsin.space/@randomColorContrasts/105631403829033001
+#f6e2d3 (246,226,211) or Karry
+#c70c38 (199,12,56) or Cardinal
+#b0b0b0 or (176 176 176) or Light_Gray
+###########################################*/
+*{user-select: none; font-family: 'Lobster', sans-serif; font-size: 2vw;}
+@font-face
+{
+	font-family: 'Lobster';
+	src: url('Lobster1_4.otf');
+	text-rendering: optimizeLegibility;
+}
+@font-face
+{
+	font-family: 'Twitter Color Emoji';
+	src: url('ColorEmoji10.ttf');
+	text-rendering: optimizeLegibility;
+}
+/*Font-Space End*/
+html, rss
+{ 
+/*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
+  background: url("brick-wall-pluspng-159660.png"), radial-gradient(at top left, rgba(246,226,211,1),rgba(199,12,56,0.5)); 
+  background-size: 100%;
+}
+.titleLine
+{
+	background-color: rgba(176, 176, 176, 1);
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+.splash, .splash h1, .splash a, banner
+{
+	background: linear-gradient(to right, rgba(176, 176, 176, 1), #c70c38);
+	padding-bottom: 10px;
+	text-shadow: 1px 1px rgba(176, 176, 176, 1);
+	color: rgba(246,226,211, 1);
+	text-align: center;
+	font-weight: bold;
+}
+.storyBorder, .txtCtrPanel
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	background-color: rgba(246,226,211, 1);
+	color: black;
+	display: block;
+}
+.chatWindow
+{
+	float: left;
+	width: 50%;
+	border: 2px solid white;
+	background-color: rgba(176, 176, 176, 1);
+	font-size: 2.2vw;
+}
+item
+{
+	float: left;
+	width: 70%;
+	border: 2px solid white;
+	background-color: #c70c38;
+	font-size: 2.2vw;
+}
+generator, guid , description, pubDate {display: none;}
+.emphasis, link
+{
+	font-family: 'Lobster', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color:  rgba(176, 176, 176, 1);
+	color: white;
+	border: 0.2vw solid black;
+	text-shadow: 0.1vw 0.1vw black;
+}
+.banner
+{
+	font-size: 2.2vw;
+	width: 100%;
+}
+.txtPanel
+{
+	opacity: 0.92;
+	font-weight: bold;
+	background-color:  rgba(176, 176, 176, 1);
+	color: black;
+	border: 0.2vw solid #c70c38;
+	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
+}
+.txtPanel a {color: #c70c38;}
+.inline span
+{
+	color: black;
+	font-family: sans-serif;
+}
+#mobile  {display: none;}
+#desktop
+{
+	display: block;
+	background-color: rgba(246,226,211, 1);
+}
+#desktop span {border: 1px solid black;}
+.wholeWide
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+	font-family: sans-serif;
+	position: relative;
+}
+.icon-bar a
+{
+	display: inline;
+	text-align: center;
+	background-color: rgba(176, 176, 176, 1);
+	border: 1px solid black;
+}
+.dropChar 
+{
+	font-family: 'Lobster', sans-serif;
+    font-size: 2vw;
+	display: inline-block; 
+	width: 3vw; 
+	height: 3vw; 
+	padding: 0.2vw 0 0 0.2vw; 
+	color: white;
+	background-color: #c70c38;
+	border: 0.2vw solid white;
+	text-align: center;
+	text-shadow: 1px 1px rgba(176, 176, 176, 1);
+	}
+img.center
+{
+	object-fit: fill;
+	height: auto;
+	width: 100%;
+}
+ul, ol
+{
+	background-color: #c70c38;
+	color: white;
+}
+/* https://www.w3schools.com/css/css3_borders.asp */
+.blurbOut, pubDate
+{
+	border-radius: 20px 30px 30px 0px;
+	background-color: #c70c38;
+	color: rgba(246,226,211, 1);
+	border: 3px solid white;
+	float: left;
+	text-shadow: 1px 1px rgba(176, 176, 176, 1);
+}
+.blurbIn, title
+{
+border-radius: 20px 30px 0px 16px;
+	background-color: rgba(246,226,211, 1);
+	color: #c70c38;
+	border: 3px solid black;
+	float: right;
+}
+.topic
+{
+	background-color: rgba(176, 176, 176, 1);
+	color: rgba(246,226,211, 1);
+	font-size: 1.3em;
+	display: table;
+}
+.center
+{
+	display: block;
+	text-align: center;
+}
+.current
+{
+	color: rgba(246,226,211, 1);
+	font-style: italic;
+}
+.picWidget img
+{
+	 box-sizing: border-box;
+	 opacity: 0.9;
+	 width: 100%;
+}
+.row {  display: flex;}
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+#dtpWidget img
+{
+	 width: 60%;
+    height: 100%;
+    display: block;
+	float: right;
+}
+td
+{
+	word-wrap: normal;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	padding: 5px;
+	font-size: 1.1em;
+}
+.leftHeading{ display: none;}
+.returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
+/*Submenu data for Desktop*/
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
+.nav .sub-menu {
+  background-color: rgba(176, 176, 176, 1);
+  list-style: none;
+
+}
+.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
+  background-color:  white;
+  color: black;
+}
+a /*What most links will look like*/
+{
+	text-decoration: none;
+	color: #c70c38;
+}
+a:visited /*What visited links will look like*/{	color: rgba(246,226,211, 1);}
+.paragraph, p /*Paragraph formatting*/
+{
+	font-family: sans-serif;
+	color: black;
+}
+/* Sidebar Position Data For Both Desktop and Mobile */
+.icon-bar
+{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.icon-bar a:hover, .txtPanel a:hover 
+{
+  background-color: white;
+  color: black;
+}
+#active
+{
+	background-color: white;
+	color: black;
+}
+/*This section of the CSS file caters to mobile and QHD displays (768p or lower)*/
+@media screen and (max-width: 1024px)  
+{
+*{font-family: 'Lobster', serif; font-size: 1em;}
+.splash, .splash h1, .splash a
+{	
+	background: linear-gradient(to right, rgba(176, 176, 176, 1), rgba(246,226,211, 1));
+	color: #c70c38;
+}
+.storyBorder, .txtCtrPanel { background-color: #c70c38; color: white;} /*mobile rendering*/
+.chatWindow {font-size: 1.2em;}
+.txtPanel { border: 0.3vw solid rgba(246,226,211, 1); }
+.inline span
+{
+	color: black;
+	font-family: serif;
+}
+.dropChar 
+{
+	font-family: 'Lobster', serif;
+    font-size: 1em;
+	width: 1.3em; 
+	height: 1.3em;
+	color: black;
+	background-color: rgba(246,226,211, 1);
+	border: 0.2vw solid black;
+	}
+ul, ol
+{
+	background-color: rgba(246,226,211, 1);
+	color: black;
+}
+.menu .menu-item.has-children { 	font-family: serif; }
+/* https://www.w3schools.com/css/css3_borders.asp */
+.blurbOut
+{
+	background-color: rgba(246,226,211, 1);
+	color: #c70c38;
+	border: 3px solid black;
+}
+.blurbIn
+{
+	background-color: #c70c38;
+	color: rgba(246,226,211, 1);
+	border: 3px solid white;
+}
+.topic{color: #c70c38;}
+.current{color: #c70c38;}
+#mobile
+{
+	display: block;
+	background-color: #c70c38;
+}
+#mobile span {	border: 1px solid white;}
+#desktop {display: none;}
+td
+{
+	color: white;
+	padding: 2px;
+}
+.returnTag {	font-family: serif, Twitter Color Emoji;}
+/*Submenu data for Mobile*/
+.nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
+.nav .sub-menu {
+  background-color: rgba(176, 176, 176, 1);
+  list-style: none;
+}
+.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
+  background-color: white;
+  color: black;
+}
+a /*What most links will look like*/
+{
+	color: #c70c38;
+}
+/*What visited links will look like*/
+a:visited {color: rgba(246,226,211, 1);}
+.paragraph, p /*Paragraph formatting*/{font-family: serif; color: white;}
+}
+@media print
+{
+	.storyBorder {	width: 98%;	}
+	.no-print, .no-print *	{	display: none !important;	}
+	.dropChar
+	{
+		border: 1px solid black;
+		color: black;
+	}
+}
