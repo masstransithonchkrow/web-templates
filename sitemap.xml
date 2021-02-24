@@ -1,1225 +1,1417 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet href="assets/365stops.css"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="
-            http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
-
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
        <loc>https://365stops.org/home.html</loc>
-       <lastmod>2020-07-09T19:13:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <lastmod>2020-10-13T19:26:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
-  <url>
-       <loc>https://365stops.org/story/informed-implosion.html</loc>
-       <lastmod>2020-06-01T19:44:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <url>
+       <loc>https://365stops.org/disclosure.html</loc>
+       <lastmod>2020-09-29T13:27:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
   <url>
        <loc>https://365stops.org/blog.html</loc>
-       <lastmod>2020-06-24T14:14:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <lastmod>2020-11-24T18:47:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
   <url>
        <loc>https://365stops.org/gallery.html</loc>
-       <lastmod>2020-06-10T23:22:18+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <lastmod>2020-10-10T20:25:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
   <url>
        <loc>https://365stops.org/hobbies.html</loc>
-       <lastmod>2020-06-10T23:22:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
   <url>
        <loc>https://365stops.org/help.html</loc>
-       <lastmod>2020-07-10T20:12:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <lastmod>2020-09-28T13:16:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://365stops.org/disclosure.html</loc>
-       <lastmod>2020-06-23T22:24:29+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <loc>https://365stops.org/story/informed-implosion.html</loc>
+       <lastmod>2020-10-15T14:51:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/12-days-xmas-rsvp.html</loc>
-       <lastmod>2020-05-27T15:27:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:58:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/bed-stuy-notes.html</loc>
-       <lastmod>2020-05-27T15:27:47+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/ditmas-carol.html</loc>
-       <lastmod>2020-06-14T21:50:17+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:53:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/good-biz-sense.html</loc>
-       <lastmod>2020-05-27T15:27:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/tech-commandments.html</loc>
-       <lastmod>2020-05-27T15:27:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/story/political-compass.html</loc>
+       <lastmod>2020-10-15T15:43:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/reduce-reuse-recycle.html</loc>
-       <lastmod>2020-05-27T15:27:46+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/fare-evasion-trolling.html</loc>
-       <lastmod>2020-05-27T15:27:50+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:53:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/bandana-connotation.html</loc>
-       <lastmod>2020-05-27T15:27:47+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/braving-the-cold.html</loc>
-       <lastmod>2020-05-27T15:27:48+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/unemployable-return-to-sender.html</loc>
-       <lastmod>2020-05-27T15:27:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/a-familial-agitation.html</loc>
-       <lastmod>2020-05-27T15:27:46+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/tales-from-the-east.html</loc>
-       <lastmod>2020-05-27T15:27:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/whose-phone-is-it-anyway.html</loc>
-       <lastmod>2020-05-27T15:27:54+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:49:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/charge-of-the-light-withdrawal.html</loc>
-       <lastmod>2020-05-27T15:27:48+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/appeal-of-grease.html</loc>
-       <lastmod>2020-05-27T15:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/day-the-brakes-failed.html</loc>
-       <lastmod>2020-05-27T15:27:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/three-years-a-vagabond-I.html</loc>
-       <lastmod>2020-05-27T15:27:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:51:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/three-years-a-vagabond-II.html</loc>
-       <lastmod>2020-05-27T15:27:43+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:51:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/three-years-a-vagabond-III.html</loc>
-       <lastmod>2020-05-27T15:27:43+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:51:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/tale-of-two-withdrawals.html</loc>
-       <lastmod>2020-05-27T15:27:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-10-15T14:59:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/story/vm-policy.html</loc>
+       <lastmod>2020-10-15T14:59:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/forgetting-erics-medicaid.html</loc>
-       <lastmod>2020-06-07T01:07:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/my-last-holiday.html</loc>
-       <lastmod>2020-05-27T15:27:40+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/benign-backdrops.html</loc>
-       <lastmod>2020-05-27T15:27:56+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/bats-live-here.html</loc>
-       <lastmod>2020-05-27T15:27:55+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/day-my-world-stopped-standing.html</loc>
-       <lastmod>2020-05-27T15:27:50+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/bbq-fridays.html</loc>
-       <lastmod>2020-05-27T15:27:56+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://365stops.org/story/sanctuaries-and-sars-ncov2.html</loc>
-       <lastmod>2020-05-02T18:37:10+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/big-fat-buyer.html</loc>
-       <lastmod>2020-05-24T19:40:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/pink-damper.html</loc>
-       <lastmod>2020-06-04T15:31:55+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/danish-greed.html</loc>
-       <lastmod>2020-06-18T19:22:32+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/tanglewood-take.html</loc>
-       <lastmod>2020-06-21T16:23:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/ye-old-brick.html</loc>
-       <lastmod>2020-06-29T13:34:50+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2020-09-16T08:05:21-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/deskthemepacks.html</loc>
-       <lastmod>2020-07-07T12:32:53+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2021-01-28T17:42:00-05:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.6</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp2/debthemepacks.html</loc>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.6</priority>
   </url>
   <url>
        <loc>https://365stops.org/campaign/no-google.html</loc>
-       <lastmod>2020-06-28T15:30:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
+  </url>
+<url>
+       <loc>https://365stops.org/campaign/base-calculator.html</loc>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/campaign/bmi-calculator.html</loc>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/campaign/your-ip.shtml</loc>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
   </url>
   <url>
        <loc>https://365stops.org/campaign/podcasts.html</loc>
-       <lastmod>2020-06-14T21:52:13+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+       <lastmod>2021-02-10T22:25:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/campaign/c4l-random-nums.html</loc>
+       <lastmod>2021-01-08T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/campaign/fsj-view.php</loc>
+       <lastmod>2020-10-07T14:33:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.7</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/sudden-spotlight.html</loc>
-       <lastmod>2020-05-02T19:06:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/why-the-lewd-face.html</loc>
-       <lastmod>2020-07-28T09:00:05+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/street-scraps.html</loc>
-       <lastmod>2020-07-02T20:21:06+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/the-lighting-thief.html</loc>
-       <lastmod>2020-07-02T20:26:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/black-eyed-breeze.html</loc>
-       <lastmod>2020-06-07T17:03:17+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/knockout-pains.html</loc>
-       <lastmod>2020-07-07T13:00:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:55:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/failure-to-fight.html</loc>
-       <lastmod>2020-07-07T13:00:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:55:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/round-the-trash.html</loc>
-       <lastmod>2020-07-07T13:00:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:54:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/pbx-lost.html</loc>
-       <lastmod>2020-05-27T15:27:51+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/the-57-moat.html</loc>
-       <lastmod>2020-06-23T22:24:20+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/voracious-voyeur.html</loc>
-       <lastmod>2020-05-27T15:27:54+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:54:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/the-johnson-vile-brat.html</loc>
-       <lastmod>2020-05-27T15:27:53+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:48:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/swept-away.html</loc>
-       <lastmod>2020-05-27T15:27:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/sticky-keys.html</loc>
-       <lastmod>2020-07-21T17:43:03+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:59:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/story/enable-remote-desktop-ulyana.html</loc>
+       <lastmod>2020-10-15T14:47:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/story/create-basic-web-server.html</loc>
+       <lastmod>2020-11-26T14:39:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/using-samba.html</loc>
+       <lastmod>2020-11-26T14:39:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/enable-nfs-on-linux.html</loc>
+       <lastmod>2021-02-10T22:25:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/enable-shared-printing-linux.html</loc>
+       <lastmod>2020-12-01T15:46:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/enabling-ssh-on-linux.html</loc>
+       <lastmod>2020-12-01T15:46:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/enabling-vnc-on-linux.html</loc>
+       <lastmod>2021-02-01T20:41:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+   <url>
+       <loc>https://365stops.org/story/wireguard-for-linux.html</loc>
+       <lastmod>2020-12-27T20:50:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+     <url>
+       <loc>https://365stops.org/story/radicale-on-linux.html</loc>
+       <lastmod>2020-12-30T12:30:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/story/writing-sr0.html</loc>
+       <lastmod>2020-11-26T14:39:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/illusion-of-control.html</loc>
-       <lastmod>2020-05-27T15:27:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:18:24-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/cheap-tricks.html</loc>
-       <lastmod>2020-06-23T22:31:17+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:49:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/evans-experimentation.html</loc>
-       <lastmod>2020-05-27T15:27:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:49:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
-  
+    <url>
+       <loc>https://365stops.org/story/satellite-swap.html</loc>
+       <lastmod>2020-10-15T15:00:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/story/sent-home-t0-die.html</loc>
+       <lastmod>2020-09-03T19:50:10-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
+  </url>
   <url>
        <loc>https://365stops.org/story/quit-google-year-one.html</loc>
-       <lastmod>2020-05-27T15:27:52+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:56:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.62</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/win-classic-for-win10.html</loc>
        <lastmod>2020-05-19T19:10:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.6</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/make-cursors-stick.html</loc>
        <lastmod>2020-05-27T15:27:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.6</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/araglion.html</loc>
-       <lastmod>2020-06-22T12:41:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/ingalill.html</loc>
-       <lastmod>2020-06-22T12:41:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/ul.html</loc>
-       <lastmod>2020-07-10T16:54:32+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-04T10:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/tts.html</loc>
-       <lastmod>2020-07-07T14:03:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/scp.html</loc>
-       <lastmod>2020-07-03T20:51:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-25T10:50:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/tcf.html</loc>
-       <lastmod>2020-06-22T12:41:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/tpp.html</loc>
-       <lastmod>2020-07-03T20:51:21+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/homespun.html</loc>
-       <lastmod>2020-06-22T12:41:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/msplus.html</loc>
-       <lastmod>2020-07-03T20:51:21+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/patina.html</loc>
-       <lastmod>2020-07-03T20:51:20+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2021-02-05T22:54:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/author/atc.html</loc>
-       <lastmod>2020-06-22T12:41:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-20T18:06:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.59</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/buzz-lightyear.html</loc>
-       <lastmod>2020-06-01T16:59:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-22T18:00:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/odebussy-aero.html</loc>
        <lastmod>2020-05-19T19:10:23+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/odebussy-hic.html</loc>
        <lastmod>2020-05-19T19:10:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/jvshuttl-aero.html</loc>
        <lastmod>2020-06-01T17:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/jvshuttl-hic.html</loc>
        <lastmod>2020-06-01T17:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/deathstr2-aero.html</loc>
-       <lastmod>2020-06-01T16:59:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/deathstr2-hic.html</loc>
-       <lastmod>2020-06-01T16:59:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-09-16T08:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/swat-kats.html</loc>
        <lastmod>2020-04-14T17:57:07+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/jackie-chan-anim.html</loc>
        <lastmod>2020-04-14T17:56:45+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/fuu1024-aero.html</loc>
        <lastmod>2020-07-07T12:32:53+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/fuu1024-hic.html</loc>
        <lastmod>2020-07-07T12:32:51+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/hinds-kitchen-aero.html</loc>
        <lastmod>2020-06-01T16:59:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/hinds-kitchen-hic.html</loc>
        <lastmod>2020-06-01T16:59:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/under10-hic.html</loc>
        <lastmod>2020-06-07T16:48:05+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/xvision-hic.html</loc>
        <lastmod>2020-05-19T19:10:17+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/xvision-aero.html</loc>
        <lastmod>2020-05-19T19:10:17+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/under10-aero.html</loc>
        <lastmod>2020-06-07T16:48:05+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/stewie.html</loc>
        <lastmod>2020-05-19T19:10:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/whisper-aero.html</loc>
        <lastmod>2020-05-19T19:10:26+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/whisper-hic.html</loc>
        <lastmod>2020-05-19T19:10:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ocathat.html</loc>
        <lastmod>2020-06-01T17:00:01+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/quit-google-year-two.html</loc>
-       <lastmod>2020-05-27T15:27:45+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:57:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.62</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/quit-google-year-three.html</loc>
-       <lastmod>2020-06-11T13:41:40+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <lastmod>2020-10-15T14:55:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.62</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/why-i-left-trend-micro.html</loc>
        <lastmod>2020-05-27T15:27:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/story/beyond-noseblind.html</loc>
        <lastmod>2020-07-27T07:58:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
-  </url>
-  <url>
-       <loc>https://365stops.org/story/podcast-test.html</loc>
-       <lastmod>2020-06-10T22:15:36+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.64</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/a_hpatpo-hic.html</loc>
        <lastmod>2020-06-22T12:40:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/a_hpatpo-aero.html</loc>
        <lastmod>2020-06-22T12:40:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icbtrfly-aero.html</loc>
        <lastmod>2020-05-19T19:10:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icbtrfly-hic.html</loc>
        <lastmod>2020-05-19T19:10:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icexotic.html</loc>
        <lastmod>2020-04-14T17:56:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icglenga-aero.html</loc>
        <lastmod>2020-04-14T17:56:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icglenga-hic.html</loc>
        <lastmod>2020-04-14T17:56:40+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icgoju-aero.html</loc>
        <lastmod>2020-04-14T17:56:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icgoju-hic.html</loc>
        <lastmod>2020-04-14T17:56:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icgladio.html</loc>
        <lastmod>2020-04-14T17:56:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icsprose.html</loc>
        <lastmod>2020-04-14T17:56:43+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/icmystic.html</loc>
        <lastmod>2020-04-14T17:56:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulatlcty-aero.html</loc>
-       <lastmod>2020-06-01T17:00:01+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulsmusic2.html</loc>
-       <lastmod>2020-04-14T17:57:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-leo-hic.html</loc>
-       <lastmod>2020-06-03T23:35:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-virgo-hic.html</loc>
-       <lastmod>2020-05-03T20:59:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-libra-hic.html</loc>
-       <lastmod>2020-06-03T23:35:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-scorpio-hic.html</loc>
-       <lastmod>2020-06-03T23:35:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-sagittarius-hic.html</loc>
-       <lastmod>2020-06-03T23:35:40+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-capricorn-hic.html</loc>
-       <lastmod>2020-06-03T23:35:43+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-aquarius-hic.html</loc>
-       <lastmod>2020-06-03T23:35:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+      <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-pisces-hic.html</loc>
-       <lastmod>2020-06-03T23:35:40+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-aries-hic.html</loc>
-       <lastmod>2020-06-03T23:35:44+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-taurus-hic.html</loc>
-       <lastmod>2020-06-03T23:35:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-gemini-hic.html</loc>
-       <lastmod>2020-06-03T23:35:43+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sotz-cancer-hic.html</loc>
-       <lastmod>2020-06-03T23:35:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulbeauty-aero.html</loc>
-       <lastmod>2020-06-27T17:39:21+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulbeauty-hic.html</loc>
-       <lastmod>2020-06-27T17:39:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulfantrr-aero.html</loc>
-       <lastmod>2020-07-10T16:54:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <lastmod>2020-09-16T08:41:18-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp/ultrains-aero.html</loc>
+       <lastmod>2020-10-04T10:08-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp/ultrains-hic.html</loc>
+       <lastmod>2020-10-04T10:22-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulfantrr-hic.html</loc>
        <lastmod>2020-07-10T16:54:16+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulmoulin-aero.html</loc>
        <lastmod>2020-07-10T16:54:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulmoulin-hic.html</loc>
        <lastmod>2020-07-10T16:58:32+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ulatlcty-hic.html</loc>
        <lastmod>2020-06-01T17:00:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ttsstorm-hic.html</loc>
        <lastmod>2020-04-14T17:57:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/cawintts.html</loc>
-       <lastmod>2020-04-14T17:56:29+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:47:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/4rluvtts.html</loc>
        <lastmod>2020-04-14T17:56:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/romantts.html</loc>
        <lastmod>2020-07-07T14:03:29+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/holyntts-hic.html</loc>
        <lastmod>2020-04-14T17:56:37+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sanfetts-aero.html</loc>
        <lastmod>2020-05-19T22:02:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sanfetts-hic.html</loc>
        <lastmod>2020-05-19T22:02:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sohhtts-hic.html</loc>
        <lastmod>2020-04-14T17:57:01+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/amlctts-hic.html</loc>
        <lastmod>2020-04-18T00:29:30+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/fogtts-aero.html</loc>
        <lastmod>2020-07-07T14:03:30+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sitptts-aero.html</loc>
        <lastmod>2020-04-14T17:56:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/sitptts-hic.html</loc>
        <lastmod>2020-04-14T17:56:59+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/cfftts-aero.html</loc>
-       <lastmod>2020-05-19T19:10:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-22T18:04:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/cfftts-hic.html</loc>
-       <lastmod>2020-05-19T19:10:21+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/codekids-hic.html</loc>
-       <lastmod>2020-06-01T17:28:03+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/codekids-aero.html</loc>
-       <lastmod>2020-06-01T17:28:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-16T08:37:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp/docwhoce-hic.html</loc>
+       <lastmod>2020-10-25T11:00-00-0400</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/kimpostv.html</loc>
        <lastmod>2020-04-14T17:56:48+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/wgcurrab-aero.html</loc>
        <lastmod>2020-06-07T15:48:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/wgcurrab-hic.html</loc>
        <lastmod>2020-06-08T01:53:55+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/haquintm-aero.html</loc>
        <lastmod>2020-06-01T17:16:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/haquintm-hic.html</loc>
        <lastmod>2020-06-01T17:16:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/pirotcar.html</loc>
        <lastmod>2020-04-14T17:56:53+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/dale_e.html</loc>
-       <lastmod>2020-05-19T19:10:18+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-09-22T18:04:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcflifec-aero.html</loc>
        <lastmod>2020-04-14T17:57:10+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcflifec-hic.html</loc>
        <lastmod>2020-04-14T17:57:10+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_city-hic.html</loc>
        <lastmod>2020-04-14T17:57:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_city-aero.html</loc>
        <lastmod>2020-04-14T17:57:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_moon-hic.html</loc>
        <lastmod>2020-04-14T17:57:09+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_moon-aero.html</loc>
        <lastmod>2020-04-14T17:57:09+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_byth-aero.html</loc>
        <lastmod>2020-06-25T13:19:56+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/tcf_byth-hic.html</loc>
        <lastmod>2020-06-25T13:19:56+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ptndwind-hic.html</loc>
        <lastmod>2020-04-14T17:56:54+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ptndwind-aero.html</loc>
        <lastmod>2020-04-14T17:56:53+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/scarwiz-aero.html</loc>
        <lastmod>2020-04-14T17:56:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/scarwiz-hic.html</loc>
        <lastmod>2020-04-14T17:56:58+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/thealche-aero.html</loc>
        <lastmod>2020-04-14T17:57:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/thealche-hic.html</loc>
        <lastmod>2020-04-14T17:57:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/snwlprd.html</loc>
        <lastmod>2020-06-11T19:09:42+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/twilight-town.html</loc>
        <lastmod>2020-05-19T19:10:14+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/windows-xp-aero.html</loc>
        <lastmod>2020-05-19T19:10:27+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/windows-xp-hic.html</loc>
        <lastmod>2020-05-19T19:10:13+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ff12-aero.html</loc>
        <lastmod>2020-04-26T20:00:55+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/smash-bros-reformed.html</loc>
        <lastmod>2020-05-19T19:10:13+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/avatla.html</loc>
        <lastmod>2020-05-19T19:10:18+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/khfm-hic.html</loc>
        <lastmod>2020-05-19T19:10:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/khfm-aero.html</loc>
        <lastmod>2020-05-19T19:10:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/ff12-ashe-hic.html</loc>
        <lastmod>2020-04-26T20:00:56+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/megaman-exe-aero.html</loc>
        <lastmod>2020-04-24T19:06:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/roll-exe-aero.html</loc>
        <lastmod>2020-04-24T19:06:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/blues-exe-aero.html</loc>
        <lastmod>2020-04-24T19:06:10+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/bass-exe-aero.html</loc>
        <lastmod>2020-05-19T19:10:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/megaman-exe-hic.html</loc>
        <lastmod>2020-04-24T19:06:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/bass-exe-hic.html</loc>
        <lastmod>2020-05-19T19:10:15+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/roll-exe-hic.html</loc>
        <lastmod>2020-04-24T19:06:12+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/blues-exe-hic.html</loc>
        <lastmod>2020-04-24T19:06:10+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/astley-1987.html</loc>
        <lastmod>2020-05-19T19:10:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/mystery2-aero.html</loc>
        <lastmod>2020-05-19T19:10:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/mystery2-hic.html</loc>
        <lastmod>2020-05-19T19:10:20+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/70s-bedroom-hic.html</loc>
        <lastmod>2020-04-14T17:56:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/jazz2.0.html</loc>
        <lastmod>2020-04-14T17:56:45+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/inside2-hic.html</loc>
        <lastmod>2020-05-19T19:10:20+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/inside2-aero.html</loc>
        <lastmod>2020-05-19T19:10:19+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/msgolden.html</loc>
        <lastmod>2020-05-19T19:10:26+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/4coreefp.html</loc>
        <lastmod>2020-04-14T17:56:21+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/4nlifep-aero.html</loc>
        <lastmod>2020-05-19T19:10:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/4nlifep-hic.html</loc>
        <lastmod>2020-05-19T19:10:23+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/dzone-hic.html</loc>
        <lastmod>2020-04-14T17:56:33+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/dzone-aero.html</loc>
        <lastmod>2020-04-14T17:56:33+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/4dadp-hic.html</loc>
        <lastmod>2020-04-14T17:56:22+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/dtp/cmasgtts-aero.html</loc>
+       <lastmod>2020-09-16T08:41:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/dtp/ncastle2.html</loc>
+       <lastmod>2021-01-28T17:42:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/dtp/4dreamsq-aero.html</loc>
+       <lastmod>2021-02-05T22:54:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp/4dreamsq-hic.html</loc>
+       <lastmod>2021-02-05T22:54:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+  <url>
+       <loc>https://365stops.org/dtp/cmasgtts-hic.html</loc>
+       <lastmod>2020-09-16T08:41:00-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
   </url>
   <url>
        <loc>https://365stops.org/dtp/witchatc.html</loc>
-       <lastmod>2020-06-11T16:45:41+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.4096</priority>
+       <lastmod>2020-06-11T16:45:41-04:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.57</priority>
+  </url>
+    <url>
+       <loc>https://365stops.org/dtp2/khfm-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/ocathat-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/twiltown-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/ulbeauty-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/ulfantrr-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/ultrains-deb.html</loc>
+       <lastmod>2021-01-09T19:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
+  </url>
+      <url>
+       <loc>https://365stops.org/dtp2/4dreamsq-deb.html</loc>
+       <lastmod>2021-02-10T13:11:00-05:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.55</priority>
   </url>
 </urlset>
