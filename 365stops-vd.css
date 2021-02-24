@@ -21,7 +21,7 @@ https://botsin.space/@randomColorContrasts/105605923808009124
 	src: url('ColorEmoji10.ttf');
 	text-rendering: optimizeLegibility;
 }
-html, rss
+html, rss, urlset
 /*Font-Space End*/
 { 
   /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
@@ -70,8 +70,8 @@ item
 	background-color: rgba(96,4,44, 1);
 	font-size: 2.2vw;
 }
-generator, guid , description, pubDate {display: none;}
-.emphasis, link
+generator, guid , description, pubDate, changefreq {display: none;}
+.emphasis, link, lastmod
 {
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
@@ -153,7 +153,7 @@ ul, ol
 	color: white;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
-.blurbOut, pubDate
+.blurbOut, pubDate, url
 {
 	border-radius: 20px 30px 30px 0px;
 	background-color: rgba(96,4,44, 1);
@@ -162,7 +162,7 @@ ul, ol
 	float: left;
 	text-shadow: 1px 1px #757575;
 }
-.blurbIn, title
+.blurbIn, title, priority
 {
 border-radius: 20px 30px 0px 16px;
 	background-color: #b884d6;

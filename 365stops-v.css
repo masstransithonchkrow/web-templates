@@ -22,7 +22,7 @@ https://botsin.space/@randomColorContrasts/105631403829033001
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
-html, rss
+html, rss, urlset
 { 
 /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
   background: url("brick-wall-pluspng-159660.png"), radial-gradient(at top left, rgba(246,226,211,1),rgba(199,12,56,0.5)); 
@@ -69,8 +69,8 @@ item
 	background-color: #c70c38;
 	font-size: 2.2vw;
 }
-generator, guid , description, pubDate {display: none;}
-.emphasis, link
+generator, guid , description, pubDate, changefreq {display: none;}
+.emphasis, link, lastmod
 {
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
@@ -150,7 +150,7 @@ ul, ol
 	color: white;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
-.blurbOut, pubDate
+.blurbOut, pubDate, url
 {
 	border-radius: 20px 30px 30px 0px;
 	background-color: #c70c38;
@@ -159,7 +159,7 @@ ul, ol
 	float: left;
 	text-shadow: 1px 1px rgba(176, 176, 176, 1);
 }
-.blurbIn, title
+.blurbIn, title, priority
 {
 border-radius: 20px 30px 0px 16px;
 	background-color: rgba(246,226,211, 1);
@@ -328,10 +328,10 @@ td
 }
 a /*What most links will look like*/
 {
-	color: #c70c38;
+	color: #f6e2d3;
 }
 /*What visited links will look like*/
-a:visited {color: rgba(246,226,211, 1);}
+a:visited {color: rgba(199,12,56, 1);}
 .paragraph, p /*Paragraph formatting*/{font-family: serif; color: white;}
 }
 @media print
