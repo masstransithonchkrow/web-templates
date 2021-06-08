@@ -17,16 +17,20 @@ https://botsin.space/@accessibleColors/103833621005988313
 }
 @font-face
 {
-	font-family: 'Twitter Color Emoji';
-	src: url('ColorEmoji10.ttf');
+	font-family: 'Segoe UI Emoji';
+	src: url('seguiemj.ttf');
 	text-rendering: optimizeLegibility;
 }
 html, rss, urlset
 /*Font-Space End*/
 { 
   /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
-  background: url("brick-wall-pluspng-159660-nega.png"), radial-gradient(at top left, rgba(206,117,2,1),rgba(25,16,59,0.5)); 
+  /*background: url("brick-wall-pluspng-159660-nega.png"), radial-gradient(at top left, rgba(206,117,2,1),rgba(25,16,59,0.5)); */
+/*Wavy preset from https://www.magicpattern.design/tools/css-backgrounds*/
   background-size: 100%;
+background-color: #757575;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ce7502 10px ), repeating-linear-gradient( #19103b55, #ce7502 );
 }
 .titleLine
 {
@@ -92,7 +96,7 @@ generator, guid , description, pubDate, changefreq {display: none;}
 	background-color: #757575;
 	color: white;
 	opacity: 0.92;
-	border: 0.2vw solid rgba(25, 16, 59, 1);
+	border: 0.2vw solid #19103b;
 	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
 }
 .txtPanel a {text-shadow: 1px 1px #b0b0b0; }
@@ -217,7 +221,8 @@ td
 	font-size: 1.1em;
 }
 .leftHeading{display: none;}
-.returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
+.returnTag, title {	font-family: sans-serif, 'Segoe UI Emoji';}
+.emblem {	font-family: 'Segoe UI Emoji'; font-size: 3em; }
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white; }
 .nav .sub-menu {
@@ -233,7 +238,7 @@ a /*What most links will look like*/
 	text-decoration: none;
 	color: white;
 }
-a:visited /*What most links will look like*/ {color: #ce7502;}
+a:visited /*What most links will look like*/ {color: #19103b;}
 .paragraph, p  /*Paragraph formatting*/
 {
 	font-family: sans-serif;
@@ -260,6 +265,17 @@ a:visited /*What most links will look like*/ {color: #ce7502;}
 @media screen and (max-width:1024px)  
 {
 *{font-family: 'Xolonium', serif; font-size: 1em;}
+html, rss, urlset
+/*Font-Space End*/
+{ 
+  /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
+  /*background: url("brick-wall-pluspng-159660-nega.png"), radial-gradient(at top left, rgba(206,117,2,1),rgba(25,16,59,0.5)); */
+/*Wavy preset from https://www.magicpattern.design/tools/css-backgrounds*/
+  background-size: 100%;
+background-color: #757575;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #19103b 10px ), repeating-linear-gradient( #ce750255, #19103b );
+}
 .splash, .splash h1
 { 
 	background: linear-gradient(to right, #757575, #ce7502); 
@@ -267,7 +283,6 @@ a:visited /*What most links will look like*/ {color: #ce7502;}
 }
 .storyBorder, .txtCtrPanel {background-color: rgba(25, 16, 59, 1); color: white;}/*mobile rendering*/
 .chatWindow {font-size: 1.2em;}
-.txtPanel {	 border: 0.3vw solid #ce7502; }
 .inline span
 {
 	color: white;
@@ -287,6 +302,7 @@ ul, ol
 	background-color: #ce7502;
 	color: black;
 }
+.txtPanel {border: 0.15em solid #ce7502;}
 .menu .menu-item.has-children {font-family: serif; }
 /* https://www.w3schools.com/css/css3_borders.asp */
 .blurbOut
@@ -313,14 +329,14 @@ td
 	color: white;
 	padding: 2px;
 }
-.returnTag {	font-family: serif, Twitter Color Emoji;}
+.returnTag {	font-family: serif, 'Segoe UI Emoji';}
+a:visited /*What most links will look like*/ {color: #ce7502;}
 /*Submenu data for Mobile*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a { color: black;}
 .nav .sub-menu {
   background-color: #757575;
   list-style: none;
 }
-a:visited /*What most links will look like*/ {color: rgba(25, 16, 59, 1);}
 .paragraph, p /*Paragraph formatting*/{font-family: serif;}
 }
 @media print

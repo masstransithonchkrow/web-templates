@@ -22,11 +22,15 @@ https://botsin.space/@accessibleColors/103808139873655431
 	text-rendering: optimizeLegibility;
 }
 /*Font-Space End*/
-html, rss
+html, rss, urlset
 { 
 /*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
-  background: url("brick-wall-pluspng-159660.png"), radial-gradient(at top left, rgba(229,216,174,1),rgba(41,48,155,0.5)); 
+  /*background: url("brick-wall-pluspng-159660.png"), radial-gradient(at top left, rgba(229,216,174,1),rgba(41,48,155,0.5)); */
+/*Wavy preset from https://www.magicpattern.design/tools/css-backgrounds*/
   background-size: 100%;
+background-color: #b0b0b0;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5d8ae 10px ), repeating-linear-gradient( #29309b55, #e5d8ae );
 }
 .titleLine
 {
@@ -69,8 +73,8 @@ item
 	background-color: #29309b;
 	font-size: 2.2vw;
 }
-generator, guid , description, pubDate {display: none;}
-.emphasis, link
+generator, guid , description, pubDate, changefreq {display: none;}
+.emphasis, link, lastmod
 {
 	font-family: 'Xolonium', sans-serif;
 	font-weight: bold;
@@ -94,7 +98,6 @@ generator, guid , description, pubDate {display: none;}
 	border: 0.2vw solid #29309b;
 	white-space: pre; /*This allows line breaks to occur, but not in between the element itself.*/
 }
-.txtPanel a {color: #29309b;}
 .inline span
 {
 	color: black;
@@ -150,7 +153,7 @@ ul, ol
 	color: white;
 }
 /* https://www.w3schools.com/css/css3_borders.asp */
-.blurbOut, pubDate
+.blurbOut, pubDate, url
 {
 	border-radius: 20px 30px 30px 0px;
 	background-color: #29309b;
@@ -159,7 +162,7 @@ ul, ol
 	float: left;
 	text-shadow: 1px 1px rgba(176, 176, 176, 1);
 }
-.blurbIn, title
+.blurbIn, title, priority
 {
 border-radius: 20px 30px 0px 16px;
 	background-color: rgba(229, 216, 174, 1);
@@ -215,6 +218,7 @@ td
 }
 .leftHeading{ display: none;}
 .returnTag, title {	font-family: sans-serif, Twitter Color Emoji;}
+.emblem {	font-family: Twitter Color Emoji; font-size: 4em; }
 /*Submenu data for Desktop*/
 .nav .menu > .menu-item, .nav .menu > .menu-item > a {  color: white;}
 .nav .sub-menu {
@@ -228,9 +232,9 @@ td
 a /*What most links will look like*/
 {
 	text-decoration: none;
-	color: #29309b;
+	color: white;
 }
-a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
+a:visited /*What visited links will look like*/{	color: rgba(41, 48, 155, 1);}
 .paragraph, p /*Paragraph formatting*/
 {
 	font-family: sans-serif;
@@ -258,6 +262,17 @@ a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
 @media screen and (max-width: 1024px)  
 {
 *{font-family: 'Xolonium', serif; font-size: 1em;}
+html, rss, urlset
+{ 
+/*Next-level tip from https://vincoding.com/css-transparent-gradient-overlay-image/*/
+  /*background: url("brick-wall-pluspng-159660.png"), radial-gradient(at top left, rgba(229,216,174,1),rgba(41,48,155,0.5)); */
+/*Wavy preset from https://www.magicpattern.design/tools/css-backgrounds*/
+  background-size: 100%;
+background-color: #b0b0b0;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #29309b 10px ), repeating-linear-gradient( #e5d8ae55, #29309b );
+
+}
 .splash, .splash h1, .splash a
 {	
 	background: linear-gradient(to right, rgba(176, 176, 176, 1), rgba(229, 216, 174, 1));
@@ -265,7 +280,6 @@ a:visited /*What visited links will look like*/{	color: rgba(229, 216, 174, 1);}
 }
 .storyBorder, .txtCtrPanel { background-color: #29309b; color: white;} /*mobile rendering*/
 .chatWindow {font-size: 1.2em;}
-.txtPanel { border: 0.3vw solid rgba(229, 216, 174, 1); }
 .inline span
 {
 	color: black;
@@ -302,6 +316,8 @@ ul, ol
 }
 .topic{color: #29309b;}
 .current{color: #29309b;}
+a:visited /*What visited links will look like*/{ color: #e5d8ae;}
+.txtPanel {border: 0.2em solid #e5d8ae;}
 #mobile
 {
 	display: block;
@@ -325,12 +341,6 @@ td
   background-color: white;
   color: black;
 }
-a /*What most links will look like*/
-{
-	color: #29309b;
-}
-/*What visited links will look like*/
-a:visited {color: rgba(229, 216, 174, 1);}
 .paragraph, p /*Paragraph formatting*/{font-family: serif; color: white;}
 }
 @media print
